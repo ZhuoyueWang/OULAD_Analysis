@@ -1,101 +1,1075 @@
 code_module,code_presentation,id_student,id_site,date,sum_click,gender,region,highest_education,imd_band,age_band,num_of_prev_attempts,studied_credits,disability,final_result
 AAA,2013J,28400,546652,-10,4,F,Scotland,HE Qualification,20-30%,35-55,0,60,N,Pass
-AAA,2013J,28400,546652,-10,1,F,Scotland,HE Qualification,20-30%,35-55,0,60,N,Pass
-AAA,2013J,28400,546652,-10,1,F,Scotland,HE Qualification,20-30%,35-55,0,60,N,Pass
-AAA,2013J,28400,546614,-10,11,F,Scotland,HE Qualification,20-30%,35-55,0,60,N,Pass
-AAA,2013J,28400,546714,-10,1,F,Scotland,HE Qualification,20-30%,35-55,0,60,N,Pass
-AAA,2013J,28400,546652,-10,8,F,Scotland,HE Qualification,20-30%,35-55,0,60,N,Pass
-AAA,2013J,28400,546876,-10,2,F,Scotland,HE Qualification,20-30%,35-55,0,60,N,Pass
-AAA,2013J,28400,546688,-10,15,F,Scotland,HE Qualification,20-30%,35-55,0,60,N,Pass
-AAA,2013J,28400,546662,-10,17,F,Scotland,HE Qualification,20-30%,35-55,0,60,N,Pass
-AAA,2013J,28400,546890,-10,1,F,Scotland,HE Qualification,20-30%,35-55,0,60,N,Pass
-AAA,2013J,28400,547011,-10,1,F,Scotland,HE Qualification,20-30%,35-55,0,60,N,Pass
-AAA,2013J,28400,547013,-10,1,F,Scotland,HE Qualification,20-30%,35-55,0,60,N,Pass
-AAA,2013J,28400,546871,-10,3,F,Scotland,HE Qualification,20-30%,35-55,0,60,N,Pass
-AAA,2013J,28400,546879,-10,4,F,Scotland,HE Qualification,20-30%,35-55,0,60,N,Pass
+AAA,2013J,28400,546652,-9,1,F,Scotland,HE Qualification,20-30%,35-55,0,60,N,Pass
+AAA,2013J,28400,546652,-8,1,F,Scotland,HE Qualification,20-30%,35-55,0,60,N,Pass
+AAA,2013J,28400,546614,-7,11,F,Scotland,HE Qualification,20-30%,35-55,0,60,N,Pass
+AAA,2013J,28400,546714,-6,1,F,Scotland,HE Qualification,20-30%,35-55,0,60,N,Pass
+AAA,2013J,28400,546652,-5,8,F,Scotland,HE Qualification,20-30%,35-55,0,60,N,Pass
+AAA,2013J,28400,546876,-4,2,F,Scotland,HE Qualification,20-30%,35-55,0,60,N,Pass
+AAA,2013J,28400,546688,-3,15,F,Scotland,HE Qualification,20-30%,35-55,0,60,N,Pass
+AAA,2013J,28400,546662,-2,17,F,Scotland,HE Qualification,20-30%,35-55,0,60,N,Pass
+AAA,2013J,28400,546890,-1,1,F,Scotland,HE Qualification,20-30%,35-55,0,60,N,Pass
+AAA,2013J,28400,547011,0,1,F,Scotland,HE Qualification,20-30%,35-55,0,60,N,Pass
+AAA,2013J,28400,547013,1,1,F,Scotland,HE Qualification,20-30%,35-55,0,60,N,Pass
+AAA,2013J,28400,546871,2,3,F,Scotland,HE Qualification,20-30%,35-55,0,60,N,Pass
+AAA,2013J,28400,546879,3,4,F,Scotland,HE Qualification,20-30%,35-55,0,60,N,Pass
 AAA,2013J,30268,546652,-10,3,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,Y,Withdrawn
-AAA,2013J,30268,546662,-10,2,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,Y,Withdrawn
-AAA,2013J,30268,546614,-10,3,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,Y,Withdrawn
-AAA,2013J,30268,546652,-10,2,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,Y,Withdrawn
+AAA,2013J,30268,546662,-9,2,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,Y,Withdrawn
+AAA,2013J,30268,546614,-8,3,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,Y,Withdrawn
+AAA,2013J,30268,546652,-7,2,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,Y,Withdrawn
 AAA,2013J,31604,546672,-10,1,F,South East Region,A Level or Equivalent,50-60%,35-55,0,60,N,Pass
-AAA,2013J,31604,547013,-10,5,F,South East Region,A Level or Equivalent,50-60%,35-55,0,60,N,Pass
-AAA,2013J,31604,546871,-10,3,F,South East Region,A Level or Equivalent,50-60%,35-55,0,60,N,Pass
-AAA,2013J,31604,546614,-10,11,F,South East Region,A Level or Equivalent,50-60%,35-55,0,60,N,Pass
-AAA,2013J,31604,546660,-10,1,F,South East Region,A Level or Equivalent,50-60%,35-55,0,60,N,Pass
-AAA,2013J,31604,546662,-10,19,F,South East Region,A Level or Equivalent,50-60%,35-55,0,60,N,Pass
-AAA,2013J,31604,546879,-10,9,F,South East Region,A Level or Equivalent,50-60%,35-55,0,60,N,Pass
-AAA,2013J,31604,546667,-10,4,F,South East Region,A Level or Equivalent,50-60%,35-55,0,60,N,Pass
-AAA,2013J,31604,546688,-10,7,F,South East Region,A Level or Equivalent,50-60%,35-55,0,60,N,Pass
+AAA,2013J,31604,547013,-9,5,F,South East Region,A Level or Equivalent,50-60%,35-55,0,60,N,Pass
+AAA,2013J,31604,546871,-8,3,F,South East Region,A Level or Equivalent,50-60%,35-55,0,60,N,Pass
+AAA,2013J,31604,546614,-7,11,F,South East Region,A Level or Equivalent,50-60%,35-55,0,60,N,Pass
+AAA,2013J,31604,546660,-6,1,F,South East Region,A Level or Equivalent,50-60%,35-55,0,60,N,Pass
+AAA,2013J,31604,546662,-5,19,F,South East Region,A Level or Equivalent,50-60%,35-55,0,60,N,Pass
+AAA,2013J,31604,546879,-4,9,F,South East Region,A Level or Equivalent,50-60%,35-55,0,60,N,Pass
+AAA,2013J,31604,546667,-3,4,F,South East Region,A Level or Equivalent,50-60%,35-55,0,60,N,Pass
+AAA,2013J,31604,546688,-2,7,F,South East Region,A Level or Equivalent,50-60%,35-55,0,60,N,Pass
 AAA,2013J,32885,546681,-10,5,F,West Midlands Region,Lower Than A Level,50-60%,0-35,0,60,N,Pass
-AAA,2013J,32885,547013,-10,1,F,West Midlands Region,Lower Than A Level,50-60%,0-35,0,60,N,Pass
-AAA,2013J,32885,546652,-10,1,F,West Midlands Region,Lower Than A Level,50-60%,0-35,0,60,N,Pass
-AAA,2013J,32885,546614,-10,13,F,West Midlands Region,Lower Than A Level,50-60%,0-35,0,60,N,Pass
-AAA,2013J,32885,546652,-10,3,F,West Midlands Region,Lower Than A Level,50-60%,0-35,0,60,N,Pass
-AAA,2013J,32885,546662,-10,22,F,West Midlands Region,Lower Than A Level,50-60%,0-35,0,60,N,Pass
-AAA,2013J,32885,546871,-10,1,F,West Midlands Region,Lower Than A Level,50-60%,0-35,0,60,N,Pass
-AAA,2013J,32885,546660,-10,2,F,West Midlands Region,Lower Than A Level,50-60%,0-35,0,60,N,Pass
-AAA,2013J,32885,546670,-10,1,F,West Midlands Region,Lower Than A Level,50-60%,0-35,0,60,N,Pass
-AAA,2013J,32885,546719,-10,5,F,West Midlands Region,Lower Than A Level,50-60%,0-35,0,60,N,Pass
-AAA,2013J,32885,546732,-10,5,F,West Midlands Region,Lower Than A Level,50-60%,0-35,0,60,N,Pass
-AAA,2013J,32885,546668,-10,1,F,West Midlands Region,Lower Than A Level,50-60%,0-35,0,60,N,Pass
-AAA,2013J,32885,546672,-10,1,F,West Midlands Region,Lower Than A Level,50-60%,0-35,0,60,N,Pass
-AAA,2013J,32885,546667,-10,3,F,West Midlands Region,Lower Than A Level,50-60%,0-35,0,60,N,Pass
-AAA,2013J,32885,546671,-10,1,F,West Midlands Region,Lower Than A Level,50-60%,0-35,0,60,N,Pass
-AAA,2013J,32885,546879,-10,5,F,West Midlands Region,Lower Than A Level,50-60%,0-35,0,60,N,Pass
-AAA,2013J,32885,546652,-10,4,F,West Midlands Region,Lower Than A Level,50-60%,0-35,0,60,N,Pass
-AAA,2013J,32885,546731,-10,4,F,West Midlands Region,Lower Than A Level,50-60%,0-35,0,60,N,Pass
+AAA,2013J,32885,547013,-9,1,F,West Midlands Region,Lower Than A Level,50-60%,0-35,0,60,N,Pass
+AAA,2013J,32885,546652,-8,1,F,West Midlands Region,Lower Than A Level,50-60%,0-35,0,60,N,Pass
+AAA,2013J,32885,546614,-7,13,F,West Midlands Region,Lower Than A Level,50-60%,0-35,0,60,N,Pass
+AAA,2013J,32885,546652,-6,3,F,West Midlands Region,Lower Than A Level,50-60%,0-35,0,60,N,Pass
+AAA,2013J,32885,546662,-5,22,F,West Midlands Region,Lower Than A Level,50-60%,0-35,0,60,N,Pass
+AAA,2013J,32885,546871,-4,1,F,West Midlands Region,Lower Than A Level,50-60%,0-35,0,60,N,Pass
+AAA,2013J,32885,546660,-3,2,F,West Midlands Region,Lower Than A Level,50-60%,0-35,0,60,N,Pass
+AAA,2013J,32885,546670,-2,1,F,West Midlands Region,Lower Than A Level,50-60%,0-35,0,60,N,Pass
+AAA,2013J,32885,546719,-1,5,F,West Midlands Region,Lower Than A Level,50-60%,0-35,0,60,N,Pass
+AAA,2013J,32885,546732,0,5,F,West Midlands Region,Lower Than A Level,50-60%,0-35,0,60,N,Pass
+AAA,2013J,32885,546668,1,1,F,West Midlands Region,Lower Than A Level,50-60%,0-35,0,60,N,Pass
+AAA,2013J,32885,546672,2,1,F,West Midlands Region,Lower Than A Level,50-60%,0-35,0,60,N,Pass
+AAA,2013J,32885,546667,3,3,F,West Midlands Region,Lower Than A Level,50-60%,0-35,0,60,N,Pass
+AAA,2013J,32885,546671,4,1,F,West Midlands Region,Lower Than A Level,50-60%,0-35,0,60,N,Pass
+AAA,2013J,32885,546879,5,5,F,West Midlands Region,Lower Than A Level,50-60%,0-35,0,60,N,Pass
+AAA,2013J,32885,546652,6,4,F,West Midlands Region,Lower Than A Level,50-60%,0-35,0,60,N,Pass
+AAA,2013J,32885,546731,7,4,F,West Midlands Region,Lower Than A Level,50-60%,0-35,0,60,N,Pass
 AAA,2013J,38053,546879,-10,7,M,Wales,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
-AAA,2013J,38053,546986,-10,2,M,Wales,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
-AAA,2013J,38053,546652,-10,5,M,Wales,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
-AAA,2013J,38053,546681,-10,2,M,Wales,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
-AAA,2013J,38053,546614,-10,13,M,Wales,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
-AAA,2013J,38053,546669,-10,5,M,Wales,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
-AAA,2013J,38053,546688,-10,2,M,Wales,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
-AAA,2013J,38053,546700,-10,2,M,Wales,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
-AAA,2013J,38053,546714,-10,2,M,Wales,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
-AAA,2013J,38053,546719,-10,5,M,Wales,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
-AAA,2013J,38053,546652,-10,11,M,Wales,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
-AAA,2013J,38053,546662,-10,17,M,Wales,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
-AAA,2013J,38053,546871,-10,1,M,Wales,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
-AAA,2013J,38053,547013,-10,1,M,Wales,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
+AAA,2013J,38053,546986,-9,2,M,Wales,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
+AAA,2013J,38053,546652,-8,5,M,Wales,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
+AAA,2013J,38053,546681,-7,2,M,Wales,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
+AAA,2013J,38053,546614,-6,13,M,Wales,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
+AAA,2013J,38053,546669,-5,5,M,Wales,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
+AAA,2013J,38053,546688,-4,2,M,Wales,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
+AAA,2013J,38053,546700,-3,2,M,Wales,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
+AAA,2013J,38053,546714,-2,2,M,Wales,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
+AAA,2013J,38053,546719,-1,5,M,Wales,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
+AAA,2013J,38053,546652,0,11,M,Wales,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
+AAA,2013J,38053,546662,1,17,M,Wales,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
+AAA,2013J,38053,546871,2,1,M,Wales,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
+AAA,2013J,38053,547013,3,1,M,Wales,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
 AAA,2013J,45462,546662,-10,1,M,Scotland,HE Qualification,30-40%,0-35,0,60,N,Pass
-AAA,2013J,45462,546986,-10,1,M,Scotland,HE Qualification,30-40%,0-35,0,60,N,Pass
-AAA,2013J,45462,546614,-10,7,M,Scotland,HE Qualification,30-40%,0-35,0,60,N,Pass
-AAA,2013J,45462,546652,-10,1,M,Scotland,HE Qualification,30-40%,0-35,0,60,N,Pass
-AAA,2013J,45462,546652,-10,1,M,Scotland,HE Qualification,30-40%,0-35,0,60,N,Pass
+AAA,2013J,45462,546986,-9,1,M,Scotland,HE Qualification,30-40%,0-35,0,60,N,Pass
+AAA,2013J,45462,546614,-8,7,M,Scotland,HE Qualification,30-40%,0-35,0,60,N,Pass
+AAA,2013J,45462,546652,-7,1,M,Scotland,HE Qualification,30-40%,0-35,0,60,N,Pass
+AAA,2013J,45462,546652,-6,1,M,Scotland,HE Qualification,30-40%,0-35,0,60,N,Pass
 AAA,2013J,58873,546652,-10,8,F,East Anglian Region,A Level or Equivalent,20-30%,0-35,0,60,N,Pass
-AAA,2013J,58873,546662,-10,34,F,East Anglian Region,A Level or Equivalent,20-30%,0-35,0,60,N,Pass
-AAA,2013J,58873,546667,-10,4,F,East Anglian Region,A Level or Equivalent,20-30%,0-35,0,60,N,Pass
-AAA,2013J,58873,546614,-10,18,F,East Anglian Region,A Level or Equivalent,20-30%,0-35,0,60,N,Pass
-AAA,2013J,58873,546681,-10,10,F,East Anglian Region,A Level or Equivalent,20-30%,0-35,0,60,N,Pass
-AAA,2013J,58873,546652,-10,1,F,East Anglian Region,A Level or Equivalent,20-30%,0-35,0,60,N,Pass
+AAA,2013J,58873,546662,-9,34,F,East Anglian Region,A Level or Equivalent,20-30%,0-35,0,60,N,Pass
+AAA,2013J,58873,546667,-8,4,F,East Anglian Region,A Level or Equivalent,20-30%,0-35,0,60,N,Pass
+AAA,2013J,58873,546614,-7,18,F,East Anglian Region,A Level or Equivalent,20-30%,0-35,0,60,N,Pass
+AAA,2013J,58873,546681,-6,10,F,East Anglian Region,A Level or Equivalent,20-30%,0-35,0,60,N,Pass
+AAA,2013J,58873,546652,-5,1,F,East Anglian Region,A Level or Equivalent,20-30%,0-35,0,60,N,Pass
 AAA,2013J,59185,546662,-10,14,M,East Anglian Region,Lower Than A Level,60-70%,35-55,0,60,N,Pass
-AAA,2013J,59185,546667,-10,8,M,East Anglian Region,Lower Than A Level,60-70%,35-55,0,60,N,Pass
-AAA,2013J,59185,546652,-10,4,M,East Anglian Region,Lower Than A Level,60-70%,35-55,0,60,N,Pass
+AAA,2013J,59185,546667,-9,8,M,East Anglian Region,Lower Than A Level,60-70%,35-55,0,60,N,Pass
+AAA,2013J,59185,546652,-8,4,M,East Anglian Region,Lower Than A Level,60-70%,35-55,0,60,N,Pass
 AAA,2013J,58873,546652,-10,5,F,East Anglian Region,A Level or Equivalent,20-30%,0-35,0,60,N,Pass
 AAA,2013J,59185,546652,-10,2,M,East Anglian Region,Lower Than A Level,60-70%,35-55,0,60,N,Pass
 AAA,2013J,58873,546700,-10,22,F,East Anglian Region,A Level or Equivalent,20-30%,0-35,0,60,N,Pass
-AAA,2013J,58873,547013,-10,1,F,East Anglian Region,A Level or Equivalent,20-30%,0-35,0,60,N,Pass
+AAA,2013J,58873,547013,-9,1,F,East Anglian Region,A Level or Equivalent,20-30%,0-35,0,60,N,Pass
 AAA,2013J,59185,546614,-10,12,M,East Anglian Region,Lower Than A Level,60-70%,35-55,0,60,N,Pass
-AAA,2013J,59185,547009,-10,1,M,East Anglian Region,Lower Than A Level,60-70%,35-55,0,60,N,Pass
-AAA,2013J,59185,546986,-10,1,M,East Anglian Region,Lower Than A Level,60-70%,35-55,0,60,N,Pass
+AAA,2013J,59185,547009,-9,1,M,East Anglian Region,Lower Than A Level,60-70%,35-55,0,60,N,Pass
+AAA,2013J,59185,546986,-8,1,M,East Anglian Region,Lower Than A Level,60-70%,35-55,0,60,N,Pass
 AAA,2013J,58873,546714,-10,18,F,East Anglian Region,A Level or Equivalent,20-30%,0-35,0,60,N,Pass
-AAA,2013J,58873,546688,-10,10,F,East Anglian Region,A Level or Equivalent,20-30%,0-35,0,60,N,Pass
+AAA,2013J,58873,546688,-9,10,F,East Anglian Region,A Level or Equivalent,20-30%,0-35,0,60,N,Pass
 AAA,2013J,59185,546681,-10,3,M,East Anglian Region,Lower Than A Level,60-70%,35-55,0,60,N,Pass
 AAA,2013J,58873,546879,-10,8,F,East Anglian Region,A Level or Equivalent,20-30%,0-35,0,60,N,Pass
 AAA,2013J,59185,546879,-10,1,M,East Anglian Region,Lower Than A Level,60-70%,35-55,0,60,N,Pass
 AAA,2013J,58873,546719,-10,3,F,East Anglian Region,A Level or Equivalent,20-30%,0-35,0,60,N,Pass
 AAA,2013J,62155,547009,-10,1,F,North Western Region,HE Qualification,50-60%,0-35,0,60,N,Pass
-AAA,2013J,62155,546871,-10,1,F,North Western Region,HE Qualification,50-60%,0-35,0,60,N,Pass
-AAA,2013J,62155,546876,-10,1,F,North Western Region,HE Qualification,50-60%,0-35,0,60,N,Pass
-AAA,2013J,62155,546879,-10,1,F,North Western Region,HE Qualification,50-60%,0-35,0,60,N,Pass
-AAA,2013J,62155,546681,-10,4,F,North Western Region,HE Qualification,50-60%,0-35,0,60,N,Pass
-AAA,2013J,62155,546614,-10,8,F,North Western Region,HE Qualification,50-60%,0-35,0,60,N,Pass
-AAA,2013J,62155,546719,-10,4,F,North Western Region,HE Qualification,50-60%,0-35,0,60,N,Pass
-AAA,2013J,62155,546662,-10,29,F,North Western Region,HE Qualification,50-60%,0-35,0,60,N,Pass
-AAA,2013J,62155,546986,-10,1,F,North Western Region,HE Qualification,50-60%,0-35,0,60,N,Pass
-AAA,2013J,62155,546667,-10,5,F,North Western Region,HE Qualification,50-60%,0-35,0,60,N,Pass
-AAA,2013J,62155,546883,-10,1,F,North Western Region,HE Qualification,50-60%,0-35,0,60,N,Pass
-AAA,2013J,62155,546688,-10,5,F,North Western Region,HE Qualification,50-60%,0-35,0,60,N,Pass
-AAA,2013J,62155,546652,-10,1,F,North Western Region,HE Qualification,50-60%,0-35,0,60,N,Pass
+AAA,2013J,62155,546871,-9,1,F,North Western Region,HE Qualification,50-60%,0-35,0,60,N,Pass
+AAA,2013J,62155,546876,-8,1,F,North Western Region,HE Qualification,50-60%,0-35,0,60,N,Pass
+AAA,2013J,62155,546879,-7,1,F,North Western Region,HE Qualification,50-60%,0-35,0,60,N,Pass
+AAA,2013J,62155,546681,-6,4,F,North Western Region,HE Qualification,50-60%,0-35,0,60,N,Pass
+AAA,2013J,62155,546614,-5,8,F,North Western Region,HE Qualification,50-60%,0-35,0,60,N,Pass
+AAA,2013J,62155,546719,-4,4,F,North Western Region,HE Qualification,50-60%,0-35,0,60,N,Pass
+AAA,2013J,62155,546662,-3,29,F,North Western Region,HE Qualification,50-60%,0-35,0,60,N,Pass
+AAA,2013J,62155,546986,-2,1,F,North Western Region,HE Qualification,50-60%,0-35,0,60,N,Pass
+AAA,2013J,62155,546667,-1,5,F,North Western Region,HE Qualification,50-60%,0-35,0,60,N,Pass
+AAA,2013J,62155,546883,0,1,F,North Western Region,HE Qualification,50-60%,0-35,0,60,N,Pass
+AAA,2013J,62155,546688,1,5,F,North Western Region,HE Qualification,50-60%,0-35,0,60,N,Pass
+AAA,2013J,62155,546652,2,1,F,North Western Region,HE Qualification,50-60%,0-35,0,60,N,Pass
 AAA,2013J,63400,546662,-10,22,M,Scotland,Lower Than A Level,40-50%,35-55,0,60,N,Pass
+AAA,2013J,63400,546670,-9,1,M,Scotland,Lower Than A Level,40-50%,35-55,0,60,N,Pass
+AAA,2013J,63400,546671,-8,1,M,Scotland,Lower Than A Level,40-50%,35-55,0,60,N,Pass
+AAA,2013J,63400,546879,-7,5,M,Scotland,Lower Than A Level,40-50%,35-55,0,60,N,Pass
+AAA,2013J,63400,546672,-6,1,M,Scotland,Lower Than A Level,40-50%,35-55,0,60,N,Pass
+AAA,2013J,63400,546681,-5,1,M,Scotland,Lower Than A Level,40-50%,35-55,0,60,N,Pass
+AAA,2013J,63400,546614,-4,8,M,Scotland,Lower Than A Level,40-50%,35-55,0,60,N,Pass
+AAA,2013J,63400,546668,-3,1,M,Scotland,Lower Than A Level,40-50%,35-55,0,60,N,Pass
+AAA,2013J,63400,546667,-2,6,M,Scotland,Lower Than A Level,40-50%,35-55,0,60,N,Pass
+AAA,2013J,65002,546614,-10,3,F,East Anglian Region,A Level or Equivalent,70-80%,0-35,0,60,N,Withdrawn
+AAA,2013J,65002,546614,-10,3,F,East Anglian Region,A Level or Equivalent,70-80%,0-35,1,60,N,Fail
+AAA,2013J,70464,546660,-10,2,F,West Midlands Region,A Level or Equivalent,60-70%,35-55,0,60,N,Pass
+AAA,2013J,70464,546652,-9,2,F,West Midlands Region,A Level or Equivalent,60-70%,35-55,0,60,N,Pass
+AAA,2013J,70464,546667,-8,5,F,West Midlands Region,A Level or Equivalent,60-70%,35-55,0,60,N,Pass
+AAA,2013J,70464,546652,-7,3,F,West Midlands Region,A Level or Equivalent,60-70%,35-55,0,60,N,Pass
+AAA,2013J,70464,546688,-6,8,F,West Midlands Region,A Level or Equivalent,60-70%,35-55,0,60,N,Pass
+AAA,2013J,70464,546874,-5,1,F,West Midlands Region,A Level or Equivalent,60-70%,35-55,0,60,N,Pass
+AAA,2013J,70464,547011,-4,1,F,West Midlands Region,A Level or Equivalent,60-70%,35-55,0,60,N,Pass
+AAA,2013J,70464,546900,-3,1,F,West Midlands Region,A Level or Equivalent,60-70%,35-55,0,60,N,Pass
+AAA,2013J,70464,546948,-2,1,F,West Midlands Region,A Level or Equivalent,60-70%,35-55,0,60,N,Pass
+AAA,2013J,70464,547013,-1,1,F,West Midlands Region,A Level or Equivalent,60-70%,35-55,0,60,N,Pass
+AAA,2013J,70464,546614,0,14,F,West Midlands Region,A Level or Equivalent,60-70%,35-55,0,60,N,Pass
+AAA,2013J,70464,546714,1,2,F,West Midlands Region,A Level or Equivalent,60-70%,35-55,0,60,N,Pass
+AAA,2013J,70464,546871,2,8,F,West Midlands Region,A Level or Equivalent,60-70%,35-55,0,60,N,Pass
+AAA,2013J,70464,546879,3,4,F,West Midlands Region,A Level or Equivalent,60-70%,35-55,0,60,N,Pass
+AAA,2013J,70464,546662,4,22,F,West Midlands Region,A Level or Equivalent,60-70%,35-55,0,60,N,Pass
+AAA,2013J,70464,547009,5,1,F,West Midlands Region,A Level or Equivalent,60-70%,35-55,0,60,N,Pass
+AAA,2013J,70464,546681,6,1,F,West Midlands Region,A Level or Equivalent,60-70%,35-55,0,60,N,Pass
+AAA,2013J,70464,547050,7,1,F,West Midlands Region,A Level or Equivalent,60-70%,35-55,0,60,N,Pass
+AAA,2013J,70464,546986,8,2,F,West Midlands Region,A Level or Equivalent,60-70%,35-55,0,60,N,Pass
+AAA,2013J,71361,546614,-10,25,M,Ireland,HE Qualification,,35-55,0,60,N,Pass
+AAA,2013J,71361,546871,-9,3,M,Ireland,HE Qualification,,35-55,0,60,N,Pass
+AAA,2013J,71361,546879,-8,2,M,Ireland,HE Qualification,,35-55,0,60,N,Pass
+AAA,2013J,71361,546662,-7,7,M,Ireland,HE Qualification,,35-55,0,60,N,Pass
+AAA,2013J,71361,546986,-6,2,M,Ireland,HE Qualification,,35-55,0,60,N,Pass
+AAA,2013J,71361,546948,-5,1,M,Ireland,HE Qualification,,35-55,0,60,N,Pass
+AAA,2013J,71361,546732,-4,1,M,Ireland,HE Qualification,,35-55,0,60,N,Pass
+AAA,2013J,71361,546652,-3,3,M,Ireland,HE Qualification,,35-55,0,60,N,Pass
+AAA,2013J,71361,546667,-2,3,M,Ireland,HE Qualification,,35-55,0,60,N,Pass
+AAA,2013J,71361,546681,-1,2,M,Ireland,HE Qualification,,35-55,0,60,N,Pass
+AAA,2013J,71361,547009,0,2,M,Ireland,HE Qualification,,35-55,0,60,N,Pass
+AAA,2013J,71361,547013,1,1,M,Ireland,HE Qualification,,35-55,0,60,N,Pass
+AAA,2013J,71361,546719,2,1,M,Ireland,HE Qualification,,35-55,0,60,N,Pass
+AAA,2013J,71361,546652,3,4,M,Ireland,HE Qualification,,35-55,0,60,N,Pass
+AAA,2013J,75091,546652,-10,12,M,South West Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,75091,546970,-9,1,M,South West Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,75091,546883,-8,6,M,South West Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,75091,546961,-7,1,M,South West Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,75091,546952,-6,2,M,South West Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,75091,546731,-5,10,M,South West Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,75091,546948,-4,5,M,South West Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,75091,546943,-3,1,M,South West Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,75091,546911,-2,1,M,South West Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,75091,546719,-1,17,M,South West Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,75091,546975,0,1,M,South West Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,75091,546986,1,1,M,South West Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,75091,546732,2,50,M,South West Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,75091,546879,3,7,M,South West Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,75091,547050,4,1,M,South West Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,75091,546876,5,11,M,South West Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,75091,547020,6,1,M,South West Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,75091,546874,7,2,M,South West Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,75091,547013,8,2,M,South West Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,75091,546652,9,6,M,South West Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,75091,546990,10,1,M,South West Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,75091,546681,11,16,M,South West Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,75091,546667,12,3,M,South West Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,75091,546871,13,16,M,South West Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,75091,546684,14,1,M,South West Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,75091,546662,15,29,M,South West Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,75091,546907,16,2,M,South West Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,75091,546688,17,10,M,South West Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,75091,546614,18,55,M,South West Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,75091,546672,19,1,M,South West Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,57506,546614,-10,3,M,South Region,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,57506,546883,-9,1,M,South Region,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,57506,546719,-8,1,M,South Region,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,57506,546876,-7,1,M,South Region,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,57506,546681,-6,1,M,South Region,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,77367,546986,-10,1,M,East Midlands Region,A Level or Equivalent,30-40%,0-35,0,60,N,Pass
+AAA,2013J,77367,546652,-9,4,M,East Midlands Region,A Level or Equivalent,30-40%,0-35,0,60,N,Pass
+AAA,2013J,77367,546662,-8,6,M,East Midlands Region,A Level or Equivalent,30-40%,0-35,0,60,N,Pass
+AAA,2013J,77367,546652,-7,4,M,East Midlands Region,A Level or Equivalent,30-40%,0-35,0,60,N,Pass
+AAA,2013J,77367,547009,-6,1,M,East Midlands Region,A Level or Equivalent,30-40%,0-35,0,60,N,Pass
+AAA,2013J,77367,546614,-5,10,M,East Midlands Region,A Level or Equivalent,30-40%,0-35,0,60,N,Pass
+AAA,2013J,77367,546652,-4,1,M,East Midlands Region,A Level or Equivalent,30-40%,0-35,0,60,N,Pass
+AAA,2013J,94961,546879,-10,5,M,South Region,Lower Than A Level,70-80%,35-55,0,60,N,Withdrawn
+AAA,2013J,94961,546879,-10,5,M,South Region,Lower Than A Level,70-80%,35-55,1,60,N,Pass
+AAA,2013J,94961,546672,-9,1,M,South Region,Lower Than A Level,70-80%,35-55,0,60,N,Withdrawn
+AAA,2013J,94961,546672,-9,1,M,South Region,Lower Than A Level,70-80%,35-55,1,60,N,Pass
+AAA,2013J,94961,546670,-8,1,M,South Region,Lower Than A Level,70-80%,35-55,0,60,N,Withdrawn
+AAA,2013J,94961,546670,-8,1,M,South Region,Lower Than A Level,70-80%,35-55,1,60,N,Pass
+AAA,2013J,94961,546671,-7,1,M,South Region,Lower Than A Level,70-80%,35-55,0,60,N,Withdrawn
+AAA,2013J,94961,546671,-7,1,M,South Region,Lower Than A Level,70-80%,35-55,1,60,N,Pass
+AAA,2013J,94961,546662,-6,12,M,South Region,Lower Than A Level,70-80%,35-55,0,60,N,Withdrawn
+AAA,2013J,94961,546662,-6,12,M,South Region,Lower Than A Level,70-80%,35-55,1,60,N,Pass
+AAA,2013J,94961,546668,-5,1,M,South Region,Lower Than A Level,70-80%,35-55,0,60,N,Withdrawn
+AAA,2013J,94961,546668,-5,1,M,South Region,Lower Than A Level,70-80%,35-55,1,60,N,Pass
+AAA,2013J,94961,546614,-4,6,M,South Region,Lower Than A Level,70-80%,35-55,0,60,N,Withdrawn
+AAA,2013J,94961,546614,-4,6,M,South Region,Lower Than A Level,70-80%,35-55,1,60,N,Pass
+AAA,2013J,94961,546652,-3,2,M,South Region,Lower Than A Level,70-80%,35-55,0,60,N,Withdrawn
+AAA,2013J,94961,546652,-3,2,M,South Region,Lower Than A Level,70-80%,35-55,1,60,N,Pass
+AAA,2013J,94961,546667,-2,10,M,South Region,Lower Than A Level,70-80%,35-55,0,60,N,Withdrawn
+AAA,2013J,94961,546667,-2,10,M,South Region,Lower Than A Level,70-80%,35-55,1,60,N,Pass
+AAA,2013J,94961,546652,-1,2,M,South Region,Lower Than A Level,70-80%,35-55,0,60,N,Withdrawn
+AAA,2013J,94961,546652,-1,2,M,South Region,Lower Than A Level,70-80%,35-55,1,60,N,Pass
+AAA,2013J,98094,546990,-10,2,M,Wales,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,98094,546652,-9,3,M,Wales,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,98094,546876,-8,5,M,Wales,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,98094,546731,-7,3,M,Wales,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,98094,546669,-6,9,M,Wales,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,98094,546879,-5,16,M,Wales,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,98094,546671,-4,2,M,Wales,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,98094,546681,-3,3,M,Wales,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,98094,546719,-2,14,M,Wales,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,98094,546668,-1,1,M,Wales,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,98094,546714,0,25,M,Wales,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,98094,546672,1,1,M,Wales,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,98094,546701,2,3,M,Wales,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,98094,546700,3,1,M,Wales,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,98094,546667,4,29,M,Wales,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,98094,546874,5,2,M,Wales,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,98094,546907,6,2,M,Wales,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,98094,546871,7,20,M,Wales,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,98094,546614,8,38,M,Wales,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,98094,547009,9,2,M,Wales,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,98094,547013,10,1,M,Wales,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,98094,546961,11,2,M,Wales,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,98094,547050,12,2,M,Wales,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,98094,546911,13,2,M,Wales,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,98094,546948,14,5,M,Wales,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,98094,546662,15,43,M,Wales,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,98094,546986,16,4,M,Wales,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,101781,546614,-10,5,M,South Region,Lower Than A Level,80-90%,35-55,0,60,N,Pass
+AAA,2013J,101781,546652,-9,1,M,South Region,Lower Than A Level,80-90%,35-55,0,60,N,Pass
+AAA,2013J,101781,546662,-8,4,M,South Region,Lower Than A Level,80-90%,35-55,0,60,N,Pass
+AAA,2013J,102806,546719,-10,3,M,North Western Region,A Level or Equivalent,30-40%,0-35,0,60,N,Pass
+AAA,2013J,102806,546667,-9,2,M,North Western Region,A Level or Equivalent,30-40%,0-35,0,60,N,Pass
+AAA,2013J,102806,546879,-8,1,M,North Western Region,A Level or Equivalent,30-40%,0-35,0,60,N,Pass
+AAA,2013J,102806,546614,-7,4,M,North Western Region,A Level or Equivalent,30-40%,0-35,0,60,N,Pass
+AAA,2013J,106577,546986,-10,1,M,East Midlands Region,Lower Than A Level,20-30%,0-35,0,60,N,Pass
+AAA,2013J,106577,546652,-9,1,M,East Midlands Region,Lower Than A Level,20-30%,0-35,0,60,N,Pass
+AAA,2013J,106577,546879,-8,1,M,East Midlands Region,Lower Than A Level,20-30%,0-35,0,60,N,Pass
+AAA,2013J,106577,546614,-7,6,M,East Midlands Region,Lower Than A Level,20-30%,0-35,0,60,N,Pass
+AAA,2013J,106577,546714,-6,1,M,East Midlands Region,Lower Than A Level,20-30%,0-35,0,60,N,Pass
+AAA,2013J,104476,547009,-10,1,M,Ireland,Post Graduate Qualification,,35-55,0,60,N,Pass
+AAA,2013J,104476,546671,-9,1,M,Ireland,Post Graduate Qualification,,35-55,0,60,N,Pass
+AAA,2013J,104476,546952,-8,1,M,Ireland,Post Graduate Qualification,,35-55,0,60,N,Pass
+AAA,2013J,104476,546986,-7,1,M,Ireland,Post Graduate Qualification,,35-55,0,60,N,Pass
+AAA,2013J,104476,546668,-6,1,M,Ireland,Post Graduate Qualification,,35-55,0,60,N,Pass
+AAA,2013J,104476,546731,-5,4,M,Ireland,Post Graduate Qualification,,35-55,0,60,N,Pass
+AAA,2013J,104476,546883,-4,3,M,Ireland,Post Graduate Qualification,,35-55,0,60,N,Pass
+AAA,2013J,104476,546688,-3,5,M,Ireland,Post Graduate Qualification,,35-55,0,60,N,Pass
+AAA,2013J,104476,546662,-2,18,M,Ireland,Post Graduate Qualification,,35-55,0,60,N,Pass
+AAA,2013J,104476,546669,-1,22,M,Ireland,Post Graduate Qualification,,35-55,0,60,N,Pass
+AAA,2013J,104476,546667,0,13,M,Ireland,Post Graduate Qualification,,35-55,0,60,N,Pass
+AAA,2013J,104476,546990,1,1,M,Ireland,Post Graduate Qualification,,35-55,0,60,N,Pass
+AAA,2013J,104476,547013,2,1,M,Ireland,Post Graduate Qualification,,35-55,0,60,N,Pass
+AAA,2013J,104476,546652,3,3,M,Ireland,Post Graduate Qualification,,35-55,0,60,N,Pass
+AAA,2013J,104476,546723,4,6,M,Ireland,Post Graduate Qualification,,35-55,0,60,N,Pass
+AAA,2013J,104476,546714,5,11,M,Ireland,Post Graduate Qualification,,35-55,0,60,N,Pass
+AAA,2013J,104476,546719,6,13,M,Ireland,Post Graduate Qualification,,35-55,0,60,N,Pass
+AAA,2013J,104476,546903,7,1,M,Ireland,Post Graduate Qualification,,35-55,0,60,N,Pass
+AAA,2013J,104476,546652,8,4,M,Ireland,Post Graduate Qualification,,35-55,0,60,N,Pass
+AAA,2013J,104476,546876,9,7,M,Ireland,Post Graduate Qualification,,35-55,0,60,N,Pass
+AAA,2013J,104476,546684,10,11,M,Ireland,Post Graduate Qualification,,35-55,0,60,N,Pass
+AAA,2013J,104476,546874,11,1,M,Ireland,Post Graduate Qualification,,35-55,0,60,N,Pass
+AAA,2013J,104476,546732,12,15,M,Ireland,Post Graduate Qualification,,35-55,0,60,N,Pass
+AAA,2013J,104476,546879,13,11,M,Ireland,Post Graduate Qualification,,35-55,0,60,N,Pass
+AAA,2013J,104476,546614,14,35,M,Ireland,Post Graduate Qualification,,35-55,0,60,N,Pass
+AAA,2013J,104476,546681,15,15,M,Ireland,Post Graduate Qualification,,35-55,0,60,N,Pass
+AAA,2013J,104476,547050,16,1,M,Ireland,Post Graduate Qualification,,35-55,0,60,N,Pass
+AAA,2013J,104476,546871,17,8,M,Ireland,Post Graduate Qualification,,35-55,0,60,N,Pass
+AAA,2013J,104476,546948,18,1,M,Ireland,Post Graduate Qualification,,35-55,0,60,N,Pass
+AAA,2013J,110175,546662,-10,4,M,East Anglian Region,HE Qualification,80-90%,35-55,0,60,N,Pass
+AAA,2013J,110175,546952,-9,1,M,East Anglian Region,HE Qualification,80-90%,35-55,0,60,N,Pass
+AAA,2013J,110175,546871,-8,1,M,East Anglian Region,HE Qualification,80-90%,35-55,0,60,N,Pass
+AAA,2013J,110175,547009,-7,1,M,East Anglian Region,HE Qualification,80-90%,35-55,0,60,N,Pass
+AAA,2013J,110175,546990,-6,1,M,East Anglian Region,HE Qualification,80-90%,35-55,0,60,N,Pass
+AAA,2013J,110175,546948,-5,1,M,East Anglian Region,HE Qualification,80-90%,35-55,0,60,N,Pass
+AAA,2013J,110175,546879,-4,1,M,East Anglian Region,HE Qualification,80-90%,35-55,0,60,N,Pass
+AAA,2013J,110175,546986,-3,1,M,East Anglian Region,HE Qualification,80-90%,35-55,0,60,N,Pass
+AAA,2013J,110175,546614,-2,8,M,East Anglian Region,HE Qualification,80-90%,35-55,0,60,N,Pass
+AAA,2013J,110175,546667,-1,3,M,East Anglian Region,HE Qualification,80-90%,35-55,0,60,N,Pass
+AAA,2013J,114999,546662,-10,3,M,Yorkshire Region,HE Qualification,60-70%,35-55,0,60,N,Pass
+AAA,2013J,114999,546614,-9,6,M,Yorkshire Region,HE Qualification,60-70%,35-55,0,60,N,Pass
+AAA,2013J,114999,546719,-8,3,M,Yorkshire Region,HE Qualification,60-70%,35-55,0,60,N,Pass
+AAA,2013J,114999,547009,-7,1,M,Yorkshire Region,HE Qualification,60-70%,35-55,0,60,N,Pass
+AAA,2013J,114999,546652,-6,2,M,Yorkshire Region,HE Qualification,60-70%,35-55,0,60,N,Pass
+AAA,2013J,114999,546652,-5,3,M,Yorkshire Region,HE Qualification,60-70%,35-55,0,60,N,Pass
+AAA,2013J,114999,546986,-4,2,M,Yorkshire Region,HE Qualification,60-70%,35-55,0,60,N,Pass
+AAA,2013J,114999,546681,-3,1,M,Yorkshire Region,HE Qualification,60-70%,35-55,0,60,N,Pass
+AAA,2013J,111717,546732,-10,29,F,East Anglian Region,HE Qualification,90-100%,35-55,0,60,N,Pass
+AAA,2013J,111717,546719,-9,18,F,East Anglian Region,HE Qualification,90-100%,35-55,0,60,N,Pass
+AAA,2013J,111717,547013,-8,2,F,East Anglian Region,HE Qualification,90-100%,35-55,0,60,N,Pass
+AAA,2013J,111717,546662,-7,7,F,East Anglian Region,HE Qualification,90-100%,35-55,0,60,N,Pass
+AAA,2013J,111717,546681,-6,12,F,East Anglian Region,HE Qualification,90-100%,35-55,0,60,N,Pass
+AAA,2013J,111717,546652,-5,3,F,East Anglian Region,HE Qualification,90-100%,35-55,0,60,N,Pass
+AAA,2013J,111717,546614,-4,9,F,East Anglian Region,HE Qualification,90-100%,35-55,0,60,N,Pass
+AAA,2013J,111717,546669,-3,8,F,East Anglian Region,HE Qualification,90-100%,35-55,0,60,N,Pass
+AAA,2013J,111717,546731,-2,9,F,East Anglian Region,HE Qualification,90-100%,35-55,0,60,N,Pass
+AAA,2013J,111717,546986,-1,1,F,East Anglian Region,HE Qualification,90-100%,35-55,0,60,N,Pass
+AAA,2013J,111717,546652,0,1,F,East Anglian Region,HE Qualification,90-100%,35-55,0,60,N,Pass
+AAA,2013J,111717,546667,1,5,F,East Anglian Region,HE Qualification,90-100%,35-55,0,60,N,Pass
+AAA,2013J,111717,546879,2,6,F,East Anglian Region,HE Qualification,90-100%,35-55,0,60,N,Pass
+AAA,2013J,111717,546876,3,1,F,East Anglian Region,HE Qualification,90-100%,35-55,0,60,N,Pass
+AAA,2013J,116692,546614,-10,16,M,East Anglian Region,A Level or Equivalent,70-80%,35-55,0,60,N,Pass
+AAA,2013J,116692,546700,-9,6,M,East Anglian Region,A Level or Equivalent,70-80%,35-55,0,60,N,Pass
+AAA,2013J,116692,546688,-8,19,M,East Anglian Region,A Level or Equivalent,70-80%,35-55,0,60,N,Pass
+AAA,2013J,116692,547013,-7,3,M,East Anglian Region,A Level or Equivalent,70-80%,35-55,0,60,N,Pass
+AAA,2013J,116692,546714,-6,6,M,East Anglian Region,A Level or Equivalent,70-80%,35-55,0,60,N,Pass
+AAA,2013J,116692,546879,-5,22,M,East Anglian Region,A Level or Equivalent,70-80%,35-55,0,60,N,Pass
+AAA,2013J,116692,546668,-4,1,M,East Anglian Region,A Level or Equivalent,70-80%,35-55,0,60,N,Pass
+AAA,2013J,116692,546681,-3,1,M,East Anglian Region,A Level or Equivalent,70-80%,35-55,0,60,N,Pass
+AAA,2013J,116692,546667,-2,8,M,East Anglian Region,A Level or Equivalent,70-80%,35-55,0,60,N,Pass
+AAA,2013J,116692,546900,-1,1,M,East Anglian Region,A Level or Equivalent,70-80%,35-55,0,60,N,Pass
+AAA,2013J,116692,546662,0,9,M,East Anglian Region,A Level or Equivalent,70-80%,35-55,0,60,N,Pass
+AAA,2013J,116692,546669,1,4,M,East Anglian Region,A Level or Equivalent,70-80%,35-55,0,60,N,Pass
+AAA,2013J,127582,546879,-10,1,F,East Midlands Region,A Level or Equivalent,40-50%,0-35,0,180,N,Pass
+AAA,2013J,127582,546714,-9,1,F,East Midlands Region,A Level or Equivalent,40-50%,0-35,0,180,N,Pass
+AAA,2013J,127582,546614,-8,5,F,East Midlands Region,A Level or Equivalent,40-50%,0-35,0,180,N,Pass
+AAA,2013J,127582,546667,-7,3,F,East Midlands Region,A Level or Equivalent,40-50%,0-35,0,180,N,Pass
+AAA,2013J,127582,546719,-6,1,F,East Midlands Region,A Level or Equivalent,40-50%,0-35,0,180,N,Pass
+AAA,2013J,127582,546652,-5,2,F,East Midlands Region,A Level or Equivalent,40-50%,0-35,0,180,N,Pass
+AAA,2013J,127582,546652,-4,1,F,East Midlands Region,A Level or Equivalent,40-50%,0-35,0,180,N,Pass
+AAA,2013J,129955,546879,-10,1,M,West Midlands Region,A Level or Equivalent,50-60%,0-35,0,60,N,Withdrawn
+AAA,2013J,129955,546879,-10,1,M,West Midlands Region,A Level or Equivalent,50-60%,0-35,1,60,N,Withdrawn
+AAA,2013J,129955,546670,-9,2,M,West Midlands Region,A Level or Equivalent,50-60%,0-35,0,60,N,Withdrawn
+AAA,2013J,129955,546670,-9,2,M,West Midlands Region,A Level or Equivalent,50-60%,0-35,1,60,N,Withdrawn
+AAA,2013J,129955,546671,-8,1,M,West Midlands Region,A Level or Equivalent,50-60%,0-35,0,60,N,Withdrawn
+AAA,2013J,129955,546671,-8,1,M,West Midlands Region,A Level or Equivalent,50-60%,0-35,1,60,N,Withdrawn
+AAA,2013J,129955,546681,-7,1,M,West Midlands Region,A Level or Equivalent,50-60%,0-35,0,60,N,Withdrawn
+AAA,2013J,129955,546681,-7,1,M,West Midlands Region,A Level or Equivalent,50-60%,0-35,1,60,N,Withdrawn
+AAA,2013J,129955,546667,-6,4,M,West Midlands Region,A Level or Equivalent,50-60%,0-35,0,60,N,Withdrawn
+AAA,2013J,129955,546667,-6,4,M,West Midlands Region,A Level or Equivalent,50-60%,0-35,1,60,N,Withdrawn
+AAA,2013J,129955,546668,-5,4,M,West Midlands Region,A Level or Equivalent,50-60%,0-35,0,60,N,Withdrawn
+AAA,2013J,129955,546668,-5,4,M,West Midlands Region,A Level or Equivalent,50-60%,0-35,1,60,N,Withdrawn
+AAA,2013J,129955,546614,-4,3,M,West Midlands Region,A Level or Equivalent,50-60%,0-35,0,60,N,Withdrawn
+AAA,2013J,129955,546614,-4,3,M,West Midlands Region,A Level or Equivalent,50-60%,0-35,1,60,N,Withdrawn
+AAA,2013J,129955,546672,-3,2,M,West Midlands Region,A Level or Equivalent,50-60%,0-35,0,60,N,Withdrawn
+AAA,2013J,129955,546672,-3,2,M,West Midlands Region,A Level or Equivalent,50-60%,0-35,1,60,N,Withdrawn
+AAA,2013J,132976,546614,-10,5,F,East Anglian Region,Lower Than A Level,80-90%,35-55,0,120,N,Pass
+AAA,2013J,132976,546662,-9,2,F,East Anglian Region,Lower Than A Level,80-90%,35-55,0,120,N,Pass
+AAA,2013J,132976,547013,-8,1,F,East Anglian Region,Lower Than A Level,80-90%,35-55,0,120,N,Pass
+AAA,2013J,132976,546871,-7,2,F,East Anglian Region,Lower Than A Level,80-90%,35-55,0,120,N,Pass
+AAA,2013J,132976,546667,-6,1,F,East Anglian Region,Lower Than A Level,80-90%,35-55,0,120,N,Pass
+AAA,2013J,132976,546879,-5,4,F,East Anglian Region,Lower Than A Level,80-90%,35-55,0,120,N,Pass
+AAA,2013J,135335,546614,-10,2,F,East Anglian Region,Lower Than A Level,20-30%,0-35,0,180,N,Withdrawn
+AAA,2013J,135335,546614,-10,2,F,East Anglian Region,Lower Than A Level,20-30%,0-35,1,120,N,Withdrawn
+AAA,2013J,134143,546879,-10,1,F,South East Region,A Level or Equivalent,90-100%,35-55,0,60,N,Distinction
+AAA,2013J,134143,546614,-9,5,F,South East Region,A Level or Equivalent,90-100%,35-55,0,60,N,Distinction
+AAA,2013J,134143,547013,-8,1,F,South East Region,A Level or Equivalent,90-100%,35-55,0,60,N,Distinction
+AAA,2013J,137873,546719,-10,1,M,South West Region,A Level or Equivalent,40-50%,35-55,0,60,N,Pass
+AAA,2013J,137873,546681,-9,1,M,South West Region,A Level or Equivalent,40-50%,35-55,0,60,N,Pass
+AAA,2013J,137873,546879,-8,1,M,South West Region,A Level or Equivalent,40-50%,35-55,0,60,N,Pass
+AAA,2013J,137873,546652,-7,3,M,South West Region,A Level or Equivalent,40-50%,35-55,0,60,N,Pass
+AAA,2013J,137873,546614,-6,7,M,South West Region,A Level or Equivalent,40-50%,35-55,0,60,N,Pass
+AAA,2013J,137873,546652,-5,2,M,South West Region,A Level or Equivalent,40-50%,35-55,0,60,N,Pass
+AAA,2013J,137873,546667,-4,3,M,South West Region,A Level or Equivalent,40-50%,35-55,0,60,N,Pass
+AAA,2013J,118983,546871,-10,1,M,East Midlands Region,HE Qualification,30-40%,0-35,0,120,N,Pass
+AAA,2013J,118983,546879,-9,1,M,East Midlands Region,HE Qualification,30-40%,0-35,0,120,N,Pass
+AAA,2013J,118983,546688,-8,1,M,East Midlands Region,HE Qualification,30-40%,0-35,0,120,N,Pass
+AAA,2013J,118983,546667,-7,3,M,East Midlands Region,HE Qualification,30-40%,0-35,0,120,N,Pass
+AAA,2013J,118983,546614,-6,2,M,East Midlands Region,HE Qualification,30-40%,0-35,0,120,N,Pass
+AAA,2013J,123044,546614,-10,2,M,South Region,A Level or Equivalent,40-50%,35-55,0,60,N,Pass
+AAA,2013J,123044,546662,-9,1,M,South Region,A Level or Equivalent,40-50%,35-55,0,60,N,Pass
+AAA,2013J,144801,546871,-10,3,F,South Region,HE Qualification,80-90%,35-55,0,60,N,Pass
+AAA,2013J,144801,546652,-9,3,F,South Region,HE Qualification,80-90%,35-55,0,60,N,Pass
+AAA,2013J,144801,546681,-8,8,F,South Region,HE Qualification,80-90%,35-55,0,60,N,Pass
+AAA,2013J,144801,546669,-7,6,F,South Region,HE Qualification,80-90%,35-55,0,60,N,Pass
+AAA,2013J,144801,546668,-6,1,F,South Region,HE Qualification,80-90%,35-55,0,60,N,Pass
+AAA,2013J,144801,546986,-5,1,F,South Region,HE Qualification,80-90%,35-55,0,60,N,Pass
+AAA,2013J,144801,546667,-4,6,F,South Region,HE Qualification,80-90%,35-55,0,60,N,Pass
+AAA,2013J,144801,546662,-3,2,F,South Region,HE Qualification,80-90%,35-55,0,60,N,Pass
+AAA,2013J,144801,547013,-2,2,F,South Region,HE Qualification,80-90%,35-55,0,60,N,Pass
+AAA,2013J,144801,546652,-1,6,F,South Region,HE Qualification,80-90%,35-55,0,60,N,Pass
+AAA,2013J,144801,546714,0,3,F,South Region,HE Qualification,80-90%,35-55,0,60,N,Pass
+AAA,2013J,144801,546652,1,1,F,South Region,HE Qualification,80-90%,35-55,0,60,N,Pass
+AAA,2013J,144801,546876,2,4,F,South Region,HE Qualification,80-90%,35-55,0,60,N,Pass
+AAA,2013J,144801,546719,3,3,F,South Region,HE Qualification,80-90%,35-55,0,60,N,Pass
+AAA,2013J,144801,546883,4,2,F,South Region,HE Qualification,80-90%,35-55,0,60,N,Pass
+AAA,2013J,144801,546879,5,7,F,South Region,HE Qualification,80-90%,35-55,0,60,N,Pass
+AAA,2013J,144801,546614,6,18,F,South Region,HE Qualification,80-90%,35-55,0,60,N,Pass
+AAA,2013J,146188,546662,-10,4,F,West Midlands Region,A Level or Equivalent,20-30%,0-35,0,60,Y,Fail
+AAA,2013J,145130,546670,-10,1,M,South West Region,HE Qualification,60-70%,0-35,0,120,N,Pass
+AAA,2013J,145130,546671,-9,1,M,South West Region,HE Qualification,60-70%,0-35,0,120,N,Pass
+AAA,2013J,145130,546672,-8,1,M,South West Region,HE Qualification,60-70%,0-35,0,120,N,Pass
+AAA,2013J,145130,546681,-7,1,M,South West Region,HE Qualification,60-70%,0-35,0,120,N,Pass
+AAA,2013J,145130,546719,-6,2,M,South West Region,HE Qualification,60-70%,0-35,0,120,N,Pass
+AAA,2013J,145130,546879,-5,5,M,South West Region,HE Qualification,60-70%,0-35,0,120,N,Pass
+AAA,2013J,146188,546614,-10,5,F,West Midlands Region,A Level or Equivalent,20-30%,0-35,0,60,Y,Fail
+AAA,2013J,146188,546669,-9,5,F,West Midlands Region,A Level or Equivalent,20-30%,0-35,0,60,Y,Fail
+AAA,2013J,145130,546668,-10,1,M,South West Region,HE Qualification,60-70%,0-35,0,120,N,Pass
+AAA,2013J,145130,546614,-9,1,M,South West Region,HE Qualification,60-70%,0-35,0,120,N,Pass
+AAA,2013J,146188,546667,-10,5,F,West Midlands Region,A Level or Equivalent,20-30%,0-35,0,60,Y,Fail
+AAA,2013J,145130,546667,-10,3,M,South West Region,HE Qualification,60-70%,0-35,0,120,N,Pass
+AAA,2013J,146188,546879,-10,3,F,West Midlands Region,A Level or Equivalent,20-30%,0-35,0,60,Y,Fail
+AAA,2013J,146188,547020,-9,1,F,West Midlands Region,A Level or Equivalent,20-30%,0-35,0,60,Y,Fail
+AAA,2013J,146188,547013,-8,1,F,West Midlands Region,A Level or Equivalent,20-30%,0-35,0,60,Y,Fail
+AAA,2013J,146188,546871,-7,2,F,West Midlands Region,A Level or Equivalent,20-30%,0-35,0,60,Y,Fail
+AAA,2013J,146188,546986,-6,1,F,West Midlands Region,A Level or Equivalent,20-30%,0-35,0,60,Y,Fail
+AAA,2013J,147756,546986,-10,1,M,North Region,Lower Than A Level,60-70%,0-35,0,120,N,Fail
+AAA,2013J,147756,546986,-10,1,M,North Region,Lower Than A Level,60-70%,0-35,1,120,N,Pass
+AAA,2013J,147756,546614,-9,4,M,North Region,Lower Than A Level,60-70%,0-35,0,120,N,Fail
+AAA,2013J,147756,546614,-9,4,M,North Region,Lower Than A Level,60-70%,0-35,1,120,N,Pass
+AAA,2013J,147756,546662,-8,10,M,North Region,Lower Than A Level,60-70%,0-35,0,120,N,Fail
+AAA,2013J,147756,546662,-8,10,M,North Region,Lower Than A Level,60-70%,0-35,1,120,N,Pass
+AAA,2013J,148993,546614,-10,15,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,Y,Withdrawn
+AAA,2013J,148993,546614,-10,15,F,North Western Region,A Level or Equivalent,30-40%,35-55,1,60,Y,Pass
+AAA,2013J,148993,546652,-9,1,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,Y,Withdrawn
+AAA,2013J,148993,546652,-9,1,F,North Western Region,A Level or Equivalent,30-40%,35-55,1,60,Y,Pass
+AAA,2013J,148993,546667,-8,3,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,Y,Withdrawn
+AAA,2013J,148993,546667,-8,3,F,North Western Region,A Level or Equivalent,30-40%,35-55,1,60,Y,Pass
+AAA,2013J,148993,546652,-7,4,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,Y,Withdrawn
+AAA,2013J,148993,546652,-7,4,F,North Western Region,A Level or Equivalent,30-40%,35-55,1,60,Y,Pass
+AAA,2013J,148993,546662,-6,32,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,Y,Withdrawn
+AAA,2013J,148993,546662,-6,32,F,North Western Region,A Level or Equivalent,30-40%,35-55,1,60,Y,Pass
+AAA,2013J,148993,546700,-5,2,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,Y,Withdrawn
+AAA,2013J,148993,546700,-5,2,F,North Western Region,A Level or Equivalent,30-40%,35-55,1,60,Y,Pass
+AAA,2013J,148993,546719,-4,5,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,Y,Withdrawn
+AAA,2013J,148993,546719,-4,5,F,North Western Region,A Level or Equivalent,30-40%,35-55,1,60,Y,Pass
+AAA,2013J,148993,546714,-3,20,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,Y,Withdrawn
+AAA,2013J,148993,546714,-3,20,F,North Western Region,A Level or Equivalent,30-40%,35-55,1,60,Y,Pass
+AAA,2013J,148993,546652,-2,5,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,Y,Withdrawn
+AAA,2013J,148993,546652,-2,5,F,North Western Region,A Level or Equivalent,30-40%,35-55,1,60,Y,Pass
+AAA,2013J,148993,547013,-1,2,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,Y,Withdrawn
+AAA,2013J,148993,547013,-1,2,F,North Western Region,A Level or Equivalent,30-40%,35-55,1,60,Y,Pass
+AAA,2013J,148993,546879,0,5,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,Y,Withdrawn
+AAA,2013J,148993,546879,0,5,F,North Western Region,A Level or Equivalent,30-40%,35-55,1,60,Y,Pass
+AAA,2013J,148993,546876,1,1,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,Y,Withdrawn
+AAA,2013J,148993,546876,1,1,F,North Western Region,A Level or Equivalent,30-40%,35-55,1,60,Y,Pass
+AAA,2013J,148993,546900,2,1,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,Y,Withdrawn
+AAA,2013J,148993,546900,2,1,F,North Western Region,A Level or Equivalent,30-40%,35-55,1,60,Y,Pass
+AAA,2013J,148993,546681,3,12,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,Y,Withdrawn
+AAA,2013J,148993,546681,3,12,F,North Western Region,A Level or Equivalent,30-40%,35-55,1,60,Y,Pass
+AAA,2013J,235507,546954,-10,1,M,Yorkshire Region,A Level or Equivalent,90-100%,0-35,0,240,N,Withdrawn
+AAA,2013J,235507,546954,-10,1,M,Yorkshire Region,A Level or Equivalent,90-100%,0-35,1,180,N,Pass
+AAA,2013J,235507,546614,-9,2,M,Yorkshire Region,A Level or Equivalent,90-100%,0-35,0,240,N,Withdrawn
+AAA,2013J,235507,546614,-9,2,M,Yorkshire Region,A Level or Equivalent,90-100%,0-35,1,180,N,Pass
+AAA,2013J,235507,546871,-8,1,M,Yorkshire Region,A Level or Equivalent,90-100%,0-35,0,240,N,Withdrawn
+AAA,2013J,235507,546871,-8,1,M,Yorkshire Region,A Level or Equivalent,90-100%,0-35,1,180,N,Pass
+AAA,2013J,235507,546948,-7,1,M,Yorkshire Region,A Level or Equivalent,90-100%,0-35,0,240,N,Withdrawn
+AAA,2013J,235507,546948,-7,1,M,Yorkshire Region,A Level or Equivalent,90-100%,0-35,1,180,N,Pass
+AAA,2013J,238007,546614,-10,11,M,South Region,HE Qualification,90-100%,55<=,0,60,N,Pass
+AAA,2013J,238007,546667,-9,5,M,South Region,HE Qualification,90-100%,55<=,0,60,N,Pass
+AAA,2013J,238007,546652,-8,4,M,South Region,HE Qualification,90-100%,55<=,0,60,N,Pass
+AAA,2013J,238007,546660,-7,3,M,South Region,HE Qualification,90-100%,55<=,0,60,N,Pass
+AAA,2013J,238007,546876,-6,1,M,South Region,HE Qualification,90-100%,55<=,0,60,N,Pass
+AAA,2013J,238007,547013,-5,1,M,South Region,HE Qualification,90-100%,55<=,0,60,N,Pass
+AAA,2013J,238007,546652,-4,6,M,South Region,HE Qualification,90-100%,55<=,0,60,N,Pass
+AAA,2013J,238007,546894,-3,1,M,South Region,HE Qualification,90-100%,55<=,0,60,N,Pass
+AAA,2013J,238007,546719,-2,5,M,South Region,HE Qualification,90-100%,55<=,0,60,N,Pass
+AAA,2013J,238007,546954,-1,1,M,South Region,HE Qualification,90-100%,55<=,0,60,N,Pass
+AAA,2013J,238007,546662,0,3,M,South Region,HE Qualification,90-100%,55<=,0,60,N,Pass
+AAA,2013J,238007,546871,1,5,M,South Region,HE Qualification,90-100%,55<=,0,60,N,Pass
+AAA,2013J,238007,546681,2,5,M,South Region,HE Qualification,90-100%,55<=,0,60,N,Pass
+AAA,2013J,238007,546948,3,2,M,South Region,HE Qualification,90-100%,55<=,0,60,N,Pass
+AAA,2013J,238007,546879,4,1,M,South Region,HE Qualification,90-100%,55<=,0,60,N,Pass
+AAA,2013J,241649,546876,-10,4,M,East Anglian Region,HE Qualification,90-100%,35-55,0,60,N,Pass
+AAA,2013J,241649,546879,-9,7,M,East Anglian Region,HE Qualification,90-100%,35-55,0,60,N,Pass
+AAA,2013J,241649,546719,-8,10,M,East Anglian Region,HE Qualification,90-100%,35-55,0,60,N,Pass
+AAA,2013J,241649,547011,-7,1,M,East Anglian Region,HE Qualification,90-100%,35-55,0,60,N,Pass
+AAA,2013J,241649,546948,-6,2,M,East Anglian Region,HE Qualification,90-100%,35-55,0,60,N,Pass
+AAA,2013J,241649,546667,-5,14,M,East Anglian Region,HE Qualification,90-100%,35-55,0,60,N,Pass
+AAA,2013J,241649,546723,-4,3,M,East Anglian Region,HE Qualification,90-100%,35-55,0,60,N,Pass
+AAA,2013J,241649,546871,-3,7,M,East Anglian Region,HE Qualification,90-100%,35-55,0,60,N,Pass
+AAA,2013J,241649,546614,-2,20,M,East Anglian Region,HE Qualification,90-100%,35-55,0,60,N,Pass
+AAA,2013J,241649,546684,-1,8,M,East Anglian Region,HE Qualification,90-100%,35-55,0,60,N,Pass
+AAA,2013J,241649,546681,0,10,M,East Anglian Region,HE Qualification,90-100%,35-55,0,60,N,Pass
+AAA,2013J,241649,546652,1,3,M,East Anglian Region,HE Qualification,90-100%,35-55,0,60,N,Pass
+AAA,2013J,241649,546662,2,33,M,East Anglian Region,HE Qualification,90-100%,35-55,0,60,N,Pass
+AAA,2013J,241649,546652,3,2,M,East Anglian Region,HE Qualification,90-100%,35-55,0,60,N,Pass
+AAA,2013J,241649,546732,4,18,M,East Anglian Region,HE Qualification,90-100%,35-55,0,60,N,Pass
+AAA,2013J,241649,546883,5,2,M,East Anglian Region,HE Qualification,90-100%,35-55,0,60,N,Pass
+AAA,2013J,248270,546652,-10,4,M,North Western Region,Lower Than A Level,20-30%,0-35,0,90,N,Pass
+AAA,2013J,248270,546667,-9,3,M,North Western Region,Lower Than A Level,20-30%,0-35,0,90,N,Pass
+AAA,2013J,248270,546879,-8,2,M,North Western Region,Lower Than A Level,20-30%,0-35,0,90,N,Pass
+AAA,2013J,248270,546719,-7,1,M,North Western Region,Lower Than A Level,20-30%,0-35,0,90,N,Pass
+AAA,2013J,248270,546672,-6,1,M,North Western Region,Lower Than A Level,20-30%,0-35,0,90,N,Pass
+AAA,2013J,248270,546668,-5,1,M,North Western Region,Lower Than A Level,20-30%,0-35,0,90,N,Pass
+AAA,2013J,248270,546614,-4,22,M,North Western Region,Lower Than A Level,20-30%,0-35,0,90,N,Pass
+AAA,2013J,248270,546662,-3,33,M,North Western Region,Lower Than A Level,20-30%,0-35,0,90,N,Pass
+AAA,2013J,248270,546671,-2,1,M,North Western Region,Lower Than A Level,20-30%,0-35,0,90,N,Pass
+AAA,2013J,248270,546670,-1,1,M,North Western Region,Lower Than A Level,20-30%,0-35,0,90,N,Pass
+AAA,2013J,248270,546652,0,4,M,North Western Region,Lower Than A Level,20-30%,0-35,0,90,N,Pass
+AAA,2013J,255548,546874,-10,1,M,Wales,Lower Than A Level,20-30%,35-55,0,60,N,Pass
+AAA,2013J,255548,546871,-9,4,M,Wales,Lower Than A Level,20-30%,35-55,0,60,N,Pass
+AAA,2013J,255548,547050,-8,1,M,Wales,Lower Than A Level,20-30%,35-55,0,60,N,Pass
+AAA,2013J,255548,546652,-7,4,M,Wales,Lower Than A Level,20-30%,35-55,0,60,N,Pass
+AAA,2013J,255548,546614,-6,20,M,Wales,Lower Than A Level,20-30%,35-55,0,60,N,Pass
+AAA,2013J,255548,546681,-5,12,M,Wales,Lower Than A Level,20-30%,35-55,0,60,N,Pass
+AAA,2013J,255548,546667,-4,5,M,Wales,Lower Than A Level,20-30%,35-55,0,60,N,Pass
+AAA,2013J,255548,546652,-3,5,M,Wales,Lower Than A Level,20-30%,35-55,0,60,N,Pass
+AAA,2013J,255548,546883,-2,1,M,Wales,Lower Than A Level,20-30%,35-55,0,60,N,Pass
+AAA,2013J,255548,546662,-1,18,M,Wales,Lower Than A Level,20-30%,35-55,0,60,N,Pass
+AAA,2013J,255548,546876,0,1,M,Wales,Lower Than A Level,20-30%,35-55,0,60,N,Pass
+AAA,2013J,255548,546688,1,1,M,Wales,Lower Than A Level,20-30%,35-55,0,60,N,Pass
+AAA,2013J,255548,546879,2,5,M,Wales,Lower Than A Level,20-30%,35-55,0,60,N,Pass
+AAA,2013J,255548,546719,3,6,M,Wales,Lower Than A Level,20-30%,35-55,0,60,N,Pass
+AAA,2013J,258392,546667,-10,3,F,West Midlands Region,Lower Than A Level,30-40%,0-35,0,60,N,Pass
+AAA,2013J,258392,546871,-9,1,F,West Midlands Region,Lower Than A Level,30-40%,0-35,0,60,N,Pass
+AAA,2013J,258392,546614,-8,3,F,West Midlands Region,Lower Than A Level,30-40%,0-35,0,60,N,Pass
+AAA,2013J,258392,546879,-7,1,F,West Midlands Region,Lower Than A Level,30-40%,0-35,0,60,N,Pass
+AAA,2013J,256815,546986,-10,2,M,North Western Region,HE Qualification,10-20,0-35,0,120,N,Pass
+AAA,2013J,256815,546662,-9,3,M,North Western Region,HE Qualification,10-20,0-35,0,120,N,Pass
+AAA,2013J,256815,546652,-8,2,M,North Western Region,HE Qualification,10-20,0-35,0,120,N,Pass
+AAA,2013J,256815,547009,-7,1,M,North Western Region,HE Qualification,10-20,0-35,0,120,N,Pass
+AAA,2013J,256815,546667,-6,9,M,North Western Region,HE Qualification,10-20,0-35,0,120,N,Pass
+AAA,2013J,256815,546681,-5,17,M,North Western Region,HE Qualification,10-20,0-35,0,120,N,Pass
+AAA,2013J,256815,546672,-4,1,M,North Western Region,HE Qualification,10-20,0-35,0,120,N,Pass
+AAA,2013J,256815,546732,-3,1,M,North Western Region,HE Qualification,10-20,0-35,0,120,N,Pass
+AAA,2013J,256815,546719,-2,10,M,North Western Region,HE Qualification,10-20,0-35,0,120,N,Pass
+AAA,2013J,256815,546879,-1,3,M,North Western Region,HE Qualification,10-20,0-35,0,120,N,Pass
+AAA,2013J,256815,546883,0,1,M,North Western Region,HE Qualification,10-20,0-35,0,120,N,Pass
+AAA,2013J,256815,546876,1,1,M,North Western Region,HE Qualification,10-20,0-35,0,120,N,Pass
+AAA,2013J,256815,546652,2,4,M,North Western Region,HE Qualification,10-20,0-35,0,120,N,Pass
+AAA,2013J,256815,546614,3,24,M,North Western Region,HE Qualification,10-20,0-35,0,120,N,Pass
+AAA,2013J,258894,546670,-10,1,F,East Anglian Region,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,258894,546681,-9,5,F,East Anglian Region,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,258894,546614,-8,17,F,East Anglian Region,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,258894,546719,-7,4,F,East Anglian Region,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,258894,546672,-6,1,F,East Anglian Region,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,258894,546671,-5,1,F,East Anglian Region,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,258894,546714,-4,18,F,East Anglian Region,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,258894,546652,-3,3,F,East Anglian Region,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,258894,546986,-2,1,F,East Anglian Region,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,258894,546652,-1,3,F,East Anglian Region,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,258894,547009,0,1,F,East Anglian Region,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,258894,546662,1,14,F,East Anglian Region,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,258894,546668,2,1,F,East Anglian Region,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,258894,546667,3,3,F,East Anglian Region,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,258894,546879,4,2,F,East Anglian Region,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,258894,546871,5,4,F,East Anglian Region,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013J,241729,546668,-10,1,F,East Midlands Region,HE Qualification,60-70%,35-55,0,60,N,Fail
+AAA,2013J,241729,546667,-9,7,F,East Midlands Region,HE Qualification,60-70%,35-55,0,60,N,Fail
+AAA,2013J,241729,546614,-8,4,F,East Midlands Region,HE Qualification,60-70%,35-55,0,60,N,Fail
+AAA,2013J,241729,546879,-7,5,F,East Midlands Region,HE Qualification,60-70%,35-55,0,60,N,Fail
+AAA,2013J,241729,546652,-6,2,F,East Midlands Region,HE Qualification,60-70%,35-55,0,60,N,Fail
+AAA,2013J,241729,546670,-5,1,F,East Midlands Region,HE Qualification,60-70%,35-55,0,60,N,Fail
+AAA,2013J,241729,546671,-4,1,F,East Midlands Region,HE Qualification,60-70%,35-55,0,60,N,Fail
+AAA,2013J,241729,546672,-3,1,F,East Midlands Region,HE Qualification,60-70%,35-55,0,60,N,Fail
+AAA,2013J,242793,546948,-10,1,M,London Region,HE Qualification,20-30%,35-55,0,60,N,Pass
+AAA,2013J,242793,546662,-9,5,M,London Region,HE Qualification,20-30%,35-55,0,60,N,Pass
+AAA,2013J,242793,546652,-8,3,M,London Region,HE Qualification,20-30%,35-55,0,60,N,Pass
+AAA,2013J,242793,546614,-7,12,M,London Region,HE Qualification,20-30%,35-55,0,60,N,Pass
+AAA,2013J,242793,546907,-6,1,M,London Region,HE Qualification,20-30%,35-55,0,60,N,Pass
+AAA,2013J,242793,546652,-5,2,M,London Region,HE Qualification,20-30%,35-55,0,60,N,Pass
+AAA,2013J,242793,547020,-4,1,M,London Region,HE Qualification,20-30%,35-55,0,60,N,Pass
+AAA,2013J,242793,546719,-3,1,M,London Region,HE Qualification,20-30%,35-55,0,60,N,Pass
+AAA,2013J,242793,546681,-2,1,M,London Region,HE Qualification,20-30%,35-55,0,60,N,Pass
+AAA,2013J,242793,546986,-1,1,M,London Region,HE Qualification,20-30%,35-55,0,60,N,Pass
+AAA,2013J,242793,546871,0,3,M,London Region,HE Qualification,20-30%,35-55,0,60,N,Pass
+AAA,2013J,246834,546672,-10,1,M,South West Region,A Level or Equivalent,90-100%,35-55,0,60,N,Pass
+AAA,2013J,246834,546652,-9,16,M,South West Region,A Level or Equivalent,90-100%,35-55,0,60,N,Pass
+AAA,2013J,246834,546652,-8,14,M,South West Region,A Level or Equivalent,90-100%,35-55,0,60,N,Pass
+AAA,2013J,246834,546662,-7,11,M,South West Region,A Level or Equivalent,90-100%,35-55,0,60,N,Pass
+AAA,2013J,246834,547050,-6,3,M,South West Region,A Level or Equivalent,90-100%,35-55,0,60,N,Pass
+AAA,2013J,246834,546879,-5,2,M,South West Region,A Level or Equivalent,90-100%,35-55,0,60,N,Pass
+AAA,2013J,246834,546667,-4,3,M,South West Region,A Level or Equivalent,90-100%,35-55,0,60,N,Pass
+AAA,2013J,246834,546871,-3,2,M,South West Region,A Level or Equivalent,90-100%,35-55,0,60,N,Pass
+AAA,2013J,246834,546668,-2,1,M,South West Region,A Level or Equivalent,90-100%,35-55,0,60,N,Pass
+AAA,2013J,246834,546670,-1,1,M,South West Region,A Level or Equivalent,90-100%,35-55,0,60,N,Pass
+AAA,2013J,246834,546652,0,1,M,South West Region,A Level or Equivalent,90-100%,35-55,0,60,N,Pass
+AAA,2013J,246834,547050,1,1,M,South West Region,A Level or Equivalent,90-100%,35-55,0,60,N,Pass
+AAA,2013J,246834,547050,2,1,M,South West Region,A Level or Equivalent,90-100%,35-55,0,60,N,Pass
+AAA,2013J,246834,546614,3,7,M,South West Region,A Level or Equivalent,90-100%,35-55,0,60,N,Pass
+AAA,2013J,246834,546671,4,1,M,South West Region,A Level or Equivalent,90-100%,35-55,0,60,N,Pass
+AAA,2013J,246834,546688,5,9,M,South West Region,A Level or Equivalent,90-100%,35-55,0,60,N,Pass
+AAA,2013J,262934,546874,-10,1,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,262934,546719,-9,6,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,262934,546952,-8,1,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,262934,546876,-7,2,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,262934,546681,-6,1,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,262934,546871,-5,9,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,262934,546652,-4,9,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,262934,546684,-3,2,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,262934,546873,-2,1,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,262934,546948,-1,1,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,262934,546671,0,1,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,262934,546961,1,1,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,262934,546667,2,5,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,262934,546668,3,1,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,262934,546662,4,16,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,262934,546879,5,5,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,262934,546652,6,1,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,262934,546652,7,8,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,262934,546672,8,1,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,262934,546894,9,1,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,262934,546614,10,18,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,262934,546732,11,1,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,262934,546670,12,1,F,North Western Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,271251,546900,-10,1,M,Scotland,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
+AAA,2013J,271251,546672,-9,1,M,Scotland,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
+AAA,2013J,271251,546871,-8,2,M,Scotland,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
+AAA,2013J,271251,546669,-7,10,M,Scotland,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
+AAA,2013J,271251,546668,-6,1,M,Scotland,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
+AAA,2013J,271251,546681,-5,4,M,Scotland,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
+AAA,2013J,271251,546986,-4,1,M,Scotland,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
+AAA,2013J,271251,546883,-3,1,M,Scotland,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
+AAA,2013J,271251,547013,-2,1,M,Scotland,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
+AAA,2013J,271251,546983,-1,1,M,Scotland,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
+AAA,2013J,271251,546652,0,5,M,Scotland,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
+AAA,2013J,271251,546614,1,12,M,Scotland,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
+AAA,2013J,271251,546723,2,5,M,Scotland,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
+AAA,2013J,271251,546879,3,7,M,Scotland,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
+AAA,2013J,271251,546689,4,2,M,Scotland,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
+AAA,2013J,271251,546719,5,6,M,Scotland,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
+AAA,2013J,271251,546667,6,4,M,Scotland,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
+AAA,2013J,271251,546670,7,1,M,Scotland,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
+AAA,2013J,271251,546876,8,4,M,Scotland,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
+AAA,2013J,271251,546652,9,1,M,Scotland,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
+AAA,2013J,271251,546662,10,21,M,Scotland,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
+AAA,2013J,271251,546671,11,1,M,Scotland,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
+AAA,2013J,279572,546614,-10,16,M,London Region,Lower Than A Level,40-50%,0-35,0,60,N,Distinction
+AAA,2013J,279572,546871,-9,5,M,London Region,Lower Than A Level,40-50%,0-35,0,60,N,Distinction
+AAA,2013J,279572,546672,-8,1,M,London Region,Lower Than A Level,40-50%,0-35,0,60,N,Distinction
+AAA,2013J,279572,546652,-7,3,M,London Region,Lower Than A Level,40-50%,0-35,0,60,N,Distinction
+AAA,2013J,279572,546688,-6,1,M,London Region,Lower Than A Level,40-50%,0-35,0,60,N,Distinction
+AAA,2013J,279572,546732,-5,25,M,London Region,Lower Than A Level,40-50%,0-35,0,60,N,Distinction
+AAA,2013J,279572,547013,-4,3,M,London Region,Lower Than A Level,40-50%,0-35,0,60,N,Distinction
+AAA,2013J,279572,546667,-3,6,M,London Region,Lower Than A Level,40-50%,0-35,0,60,N,Distinction
+AAA,2013J,279572,546879,-2,13,M,London Region,Lower Than A Level,40-50%,0-35,0,60,N,Distinction
+AAA,2013J,279572,546684,-1,1,M,London Region,Lower Than A Level,40-50%,0-35,0,60,N,Distinction
+AAA,2013J,279572,546681,0,9,M,London Region,Lower Than A Level,40-50%,0-35,0,60,N,Distinction
+AAA,2013J,279572,546671,1,1,M,London Region,Lower Than A Level,40-50%,0-35,0,60,N,Distinction
+AAA,2013J,279572,546668,2,1,M,London Region,Lower Than A Level,40-50%,0-35,0,60,N,Distinction
+AAA,2013J,279572,546876,3,2,M,London Region,Lower Than A Level,40-50%,0-35,0,60,N,Distinction
+AAA,2013J,279572,546652,4,1,M,London Region,Lower Than A Level,40-50%,0-35,0,60,N,Distinction
+AAA,2013J,279572,546719,5,3,M,London Region,Lower Than A Level,40-50%,0-35,0,60,N,Distinction
+AAA,2013J,279572,546662,6,19,M,London Region,Lower Than A Level,40-50%,0-35,0,60,N,Distinction
+AAA,2013J,279572,546670,7,1,M,London Region,Lower Than A Level,40-50%,0-35,0,60,N,Distinction
+AAA,2013J,281250,546652,-10,1,M,Wales,Lower Than A Level,70-80%,35-55,0,60,N,Fail
+AAA,2013J,281250,546652,-9,3,M,Wales,Lower Than A Level,70-80%,35-55,0,60,N,Fail
+AAA,2013J,281250,546670,-8,1,M,Wales,Lower Than A Level,70-80%,35-55,0,60,N,Fail
+AAA,2013J,281250,547050,-7,1,M,Wales,Lower Than A Level,70-80%,35-55,0,60,N,Fail
+AAA,2013J,281250,546879,-6,3,M,Wales,Lower Than A Level,70-80%,35-55,0,60,N,Fail
+AAA,2013J,281250,546667,-5,7,M,Wales,Lower Than A Level,70-80%,35-55,0,60,N,Fail
+AAA,2013J,281250,546614,-4,5,M,Wales,Lower Than A Level,70-80%,35-55,0,60,N,Fail
+AAA,2013J,281250,546668,-3,1,M,Wales,Lower Than A Level,70-80%,35-55,0,60,N,Fail
+AAA,2013J,281250,547013,-2,1,M,Wales,Lower Than A Level,70-80%,35-55,0,60,N,Fail
+AAA,2013J,281250,546652,-1,3,M,Wales,Lower Than A Level,70-80%,35-55,0,60,N,Fail
+AAA,2013J,281250,546662,0,1,M,Wales,Lower Than A Level,70-80%,35-55,0,60,N,Fail
+AAA,2013J,281250,546871,1,2,M,Wales,Lower Than A Level,70-80%,35-55,0,60,N,Fail
+AAA,2013J,281250,546681,2,2,M,Wales,Lower Than A Level,70-80%,35-55,0,60,N,Fail
+AAA,2013J,282821,546652,-10,1,M,South West Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,282821,547050,-9,3,M,South West Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,282821,546879,-8,2,M,South West Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,282821,546871,-7,2,M,South West Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,282821,546614,-6,7,M,South West Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,282821,546714,-5,21,M,South West Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,282821,546667,-4,2,M,South West Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,282821,546662,-3,27,M,South West Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,282821,546652,-2,3,M,South West Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,291334,546614,-10,21,M,South East Region,A Level or Equivalent,90-100%,35-55,0,60,N,Distinction
+AAA,2013J,291334,546669,-9,11,M,South East Region,A Level or Equivalent,90-100%,35-55,0,60,N,Distinction
+AAA,2013J,291334,546719,-8,5,M,South East Region,A Level or Equivalent,90-100%,35-55,0,60,N,Distinction
+AAA,2013J,291334,546681,-7,1,M,South East Region,A Level or Equivalent,90-100%,35-55,0,60,N,Distinction
+AAA,2013J,291334,546688,-6,1,M,South East Region,A Level or Equivalent,90-100%,35-55,0,60,N,Distinction
+AAA,2013J,291334,546714,-5,18,M,South East Region,A Level or Equivalent,90-100%,35-55,0,60,N,Distinction
+AAA,2013J,291334,546652,-4,4,M,South East Region,A Level or Equivalent,90-100%,35-55,0,60,N,Distinction
+AAA,2013J,291334,546662,-3,35,M,South East Region,A Level or Equivalent,90-100%,35-55,0,60,N,Distinction
+AAA,2013J,291334,546667,-2,5,M,South East Region,A Level or Equivalent,90-100%,35-55,0,60,N,Distinction
+AAA,2013J,291334,546876,-1,1,M,South East Region,A Level or Equivalent,90-100%,35-55,0,60,N,Distinction
+AAA,2013J,291334,547011,0,1,M,South East Region,A Level or Equivalent,90-100%,35-55,0,60,N,Distinction
+AAA,2013J,291334,546732,1,1,M,South East Region,A Level or Equivalent,90-100%,35-55,0,60,N,Distinction
+AAA,2013J,291334,546948,2,1,M,South East Region,A Level or Equivalent,90-100%,35-55,0,60,N,Distinction
+AAA,2013J,291334,546879,3,10,M,South East Region,A Level or Equivalent,90-100%,35-55,0,60,N,Distinction
+AAA,2013J,291334,546652,4,2,M,South East Region,A Level or Equivalent,90-100%,35-55,0,60,N,Distinction
+AAA,2013J,291334,547013,5,3,M,South East Region,A Level or Equivalent,90-100%,35-55,0,60,N,Distinction
+AAA,2013J,291334,546871,6,8,M,South East Region,A Level or Equivalent,90-100%,35-55,0,60,N,Distinction
+AAA,2013J,291334,546731,7,3,M,South East Region,A Level or Equivalent,90-100%,35-55,0,60,N,Distinction
+AAA,2013J,296332,546652,-10,1,M,South Region,Post Graduate Qualification,90-100%,55<=,0,60,N,Distinction
+AAA,2013J,296332,546986,-9,1,M,South Region,Post Graduate Qualification,90-100%,55<=,0,60,N,Distinction
+AAA,2013J,296332,546879,-8,1,M,South Region,Post Graduate Qualification,90-100%,55<=,0,60,N,Distinction
+AAA,2013J,296332,547013,-7,1,M,South Region,Post Graduate Qualification,90-100%,55<=,0,60,N,Distinction
+AAA,2013J,296332,546871,-6,1,M,South Region,Post Graduate Qualification,90-100%,55<=,0,60,N,Distinction
+AAA,2013J,296332,546662,-5,4,M,South Region,Post Graduate Qualification,90-100%,55<=,0,60,N,Distinction
+AAA,2013J,296332,546652,-4,2,M,South Region,Post Graduate Qualification,90-100%,55<=,0,60,N,Distinction
+AAA,2013J,296332,546614,-3,7,M,South Region,Post Graduate Qualification,90-100%,55<=,0,60,N,Distinction
+AAA,2013J,296332,546667,-2,3,M,South Region,Post Graduate Qualification,90-100%,55<=,0,60,N,Distinction
+AAA,2013J,298696,546986,-10,1,F,South East Region,HE Qualification,80-90%,0-35,0,60,N,Pass
+AAA,2013J,298696,546614,-9,1,F,South East Region,HE Qualification,80-90%,0-35,0,60,N,Pass
+AAA,2013J,298696,546662,-8,1,F,South East Region,HE Qualification,80-90%,0-35,0,60,N,Pass
+AAA,2013J,298696,547009,-7,1,F,South East Region,HE Qualification,80-90%,0-35,0,60,N,Pass
+AAA,2013J,300398,546681,-10,3,M,West Midlands Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,300398,546731,-9,10,M,West Midlands Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,300398,546652,-8,4,M,West Midlands Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,300398,546719,-7,8,M,West Midlands Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,300398,546879,-6,13,M,West Midlands Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,300398,546732,-5,13,M,West Midlands Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,300398,546671,-4,3,M,West Midlands Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,300398,546669,-3,2,M,West Midlands Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,300398,546668,-2,2,M,West Midlands Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,300398,546662,-1,9,M,West Midlands Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,300398,546614,0,28,M,West Midlands Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,300398,546652,1,4,M,West Midlands Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,300398,546672,2,2,M,West Midlands Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,300398,546670,3,2,M,West Midlands Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,300398,546667,4,7,M,West Midlands Region,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2013J,287548,546731,-10,1,M,East Anglian Region,A Level or Equivalent,90-100%,0-35,0,120,N,Pass
+AAA,2013J,287548,546681,-9,1,M,East Anglian Region,A Level or Equivalent,90-100%,0-35,0,120,N,Pass
+AAA,2013J,287548,546614,-8,4,M,East Anglian Region,A Level or Equivalent,90-100%,0-35,0,120,N,Pass
+AAA,2013J,287548,546719,-7,1,M,East Anglian Region,A Level or Equivalent,90-100%,0-35,0,120,N,Pass
+AAA,2013J,302302,546879,-10,4,F,East Anglian Region,A Level or Equivalent,40-50%,0-35,0,60,N,Fail
+AAA,2013J,302302,546667,-9,8,F,East Anglian Region,A Level or Equivalent,40-50%,0-35,0,60,N,Fail
+AAA,2013J,302302,546652,-8,2,F,East Anglian Region,A Level or Equivalent,40-50%,0-35,0,60,N,Fail
+AAA,2013J,302302,546652,-7,2,F,East Anglian Region,A Level or Equivalent,40-50%,0-35,0,60,N,Fail
+AAA,2013J,302302,546662,-6,1,F,East Anglian Region,A Level or Equivalent,40-50%,0-35,0,60,N,Fail
+AAA,2013J,302302,546614,-5,6,F,East Anglian Region,A Level or Equivalent,40-50%,0-35,0,60,N,Fail
+AAA,2013J,302302,547013,-4,1,F,East Anglian Region,A Level or Equivalent,40-50%,0-35,0,60,N,Fail
+AAA,2013J,305539,546879,-10,1,F,Wales,Lower Than A Level,80-90%,0-35,0,120,N,Withdrawn
+AAA,2013J,305539,546669,-9,4,F,Wales,Lower Than A Level,80-90%,0-35,0,120,N,Withdrawn
+AAA,2013J,305539,546614,-8,2,F,Wales,Lower Than A Level,80-90%,0-35,0,120,N,Withdrawn
+AAA,2013J,305539,546667,-7,2,F,Wales,Lower Than A Level,80-90%,0-35,0,120,N,Withdrawn
+AAA,2013J,306897,546719,-10,6,F,London Region,A Level or Equivalent,10-20,0-35,0,60,N,Pass
+AAA,2013J,306897,546681,-9,3,F,London Region,A Level or Equivalent,10-20,0-35,0,60,N,Pass
+AAA,2013J,306897,546983,-8,1,F,London Region,A Level or Equivalent,10-20,0-35,0,60,N,Pass
+AAA,2013J,306897,546982,-7,2,F,London Region,A Level or Equivalent,10-20,0-35,0,60,N,Pass
+AAA,2013J,306897,546948,-6,1,F,London Region,A Level or Equivalent,10-20,0-35,0,60,N,Pass
+AAA,2013J,306897,546900,-5,1,F,London Region,A Level or Equivalent,10-20,0-35,0,60,N,Pass
+AAA,2013J,306897,546896,-4,1,F,London Region,A Level or Equivalent,10-20,0-35,0,60,N,Pass
+AAA,2013J,306466,546662,-10,20,M,East Anglian Region,A Level or Equivalent,90-100%,35-55,0,60,N,Pass
+AAA,2013J,306897,546614,-10,62,F,London Region,A Level or Equivalent,10-20,0-35,0,60,N,Pass
+AAA,2013J,306897,546678,-9,1,F,London Region,A Level or Equivalent,10-20,0-35,0,60,N,Pass
+AAA,2013J,306897,546986,-8,2,F,London Region,A Level or Equivalent,10-20,0-35,0,60,N,Pass
+AAA,2013J,306897,546738,-7,1,F,London Region,A Level or Equivalent,10-20,0-35,0,60,N,Pass
+AAA,2013J,306466,546688,-10,2,M,East Anglian Region,A Level or Equivalent,90-100%,35-55,0,60,N,Pass
+AAA,2013J,306466,546652,-9,1,M,East Anglian Region,A Level or Equivalent,90-100%,35-55,0,60,N,Pass
+AAA,2013J,306897,546716,-10,1,F,London Region,A Level or Equivalent,10-20,0-35,0,60,N,Pass
+AAA,2013J,306897,546714,-9,4,F,London Region,A Level or Equivalent,10-20,0-35,0,60,N,Pass
+AAA,2013J,306897,546725,-8,1,F,London Region,A Level or Equivalent,10-20,0-35,0,60,N,Pass
+AAA,2013J,306897,546662,-7,12,F,London Region,A Level or Equivalent,10-20,0-35,0,60,N,Pass
+AAA,2013J,306897,546731,-6,1,F,London Region,A Level or Equivalent,10-20,0-35,0,60,N,Pass
+AAA,2013J,306897,547013,-5,3,F,London Region,A Level or Equivalent,10-20,0-35,0,60,N,Pass
+AAA,2013J,306897,546667,-4,5,F,London Region,A Level or Equivalent,10-20,0-35,0,60,N,Pass
+AAA,2013J,306897,546723,-3,1,F,London Region,A Level or Equivalent,10-20,0-35,0,60,N,Pass
+AAA,2013J,306897,546883,-2,3,F,London Region,A Level or Equivalent,10-20,0-35,0,60,N,Pass
+AAA,2013J,306466,546652,-10,5,M,East Anglian Region,A Level or Equivalent,90-100%,35-55,0,60,N,Pass
+AAA,2013J,306897,546879,-10,7,F,London Region,A Level or Equivalent,10-20,0-35,0,60,N,Pass
+AAA,2013J,306897,546874,-9,2,F,London Region,A Level or Equivalent,10-20,0-35,0,60,N,Pass
+AAA,2013J,306466,546879,-10,3,M,East Anglian Region,A Level or Equivalent,90-100%,35-55,0,60,N,Pass
+AAA,2013J,306897,546652,-10,2,F,London Region,A Level or Equivalent,10-20,0-35,0,60,N,Pass
+AAA,2013J,306897,546876,-9,5,F,London Region,A Level or Equivalent,10-20,0-35,0,60,N,Pass
+AAA,2013J,306897,546669,-8,5,F,London Region,A Level or Equivalent,10-20,0-35,0,60,N,Pass
+AAA,2013J,306897,546871,-7,3,F,London Region,A Level or Equivalent,10-20,0-35,0,60,N,Pass
+AAA,2013J,306466,546986,-10,1,M,East Anglian Region,A Level or Equivalent,90-100%,35-55,0,60,N,Pass
+AAA,2013J,306466,547009,-9,1,M,East Anglian Region,A Level or Equivalent,90-100%,35-55,0,60,N,Pass
+AAA,2013J,306466,546652,-8,4,M,East Anglian Region,A Level or Equivalent,90-100%,35-55,0,60,N,Pass
+AAA,2013J,306466,547013,-7,1,M,East Anglian Region,A Level or Equivalent,90-100%,35-55,0,60,N,Pass
+AAA,2013J,306897,546676,-10,1,F,London Region,A Level or Equivalent,10-20,0-35,0,60,N,Pass
+AAA,2013J,306897,546680,-9,1,F,London Region,A Level or Equivalent,10-20,0-35,0,60,N,Pass
+AAA,2013J,306897,546739,-8,1,F,London Region,A Level or Equivalent,10-20,0-35,0,60,N,Pass
+AAA,2013J,306897,546652,-7,2,F,London Region,A Level or Equivalent,10-20,0-35,0,60,N,Pass
+AAA,2013J,306466,546614,-10,4,M,East Anglian Region,A Level or Equivalent,90-100%,35-55,0,60,N,Pass
+AAA,2013J,307866,546652,-10,3,M,West Midlands Region,A Level or Equivalent,70-80%,0-35,0,60,N,Pass
+AAA,2013J,307866,546879,-9,3,M,West Midlands Region,A Level or Equivalent,70-80%,0-35,0,60,N,Pass
+AAA,2013J,307866,546614,-8,9,M,West Midlands Region,A Level or Equivalent,70-80%,0-35,0,60,N,Pass
+AAA,2013J,307866,546667,-7,5,M,West Midlands Region,A Level or Equivalent,70-80%,0-35,0,60,N,Pass
+AAA,2013J,307866,546662,-6,5,M,West Midlands Region,A Level or Equivalent,70-80%,0-35,0,60,N,Pass
+AAA,2013J,307866,546652,-5,1,M,West Midlands Region,A Level or Equivalent,70-80%,0-35,0,60,N,Pass
+AAA,2013J,307866,546652,-4,2,M,West Midlands Region,A Level or Equivalent,70-80%,0-35,0,60,N,Pass
+AAA,2013J,312537,546667,-10,2,M,South Region,Post Graduate Qualification,90-100%,55<=,0,60,N,Distinction
+AAA,2013J,312537,546652,-9,2,M,South Region,Post Graduate Qualification,90-100%,55<=,0,60,N,Distinction
+AAA,2013J,312537,546614,-8,8,M,South Region,Post Graduate Qualification,90-100%,55<=,0,60,N,Distinction
+AAA,2013J,312782,546986,-10,1,M,South Region,A Level or Equivalent,90-100%,0-35,0,60,N,Pass
+AAA,2013J,312537,546879,-10,1,M,South Region,Post Graduate Qualification,90-100%,55<=,0,60,N,Distinction
+AAA,2013J,312782,546652,-10,1,M,South Region,A Level or Equivalent,90-100%,0-35,0,60,N,Pass
+AAA,2013J,312537,546652,-10,1,M,South Region,Post Graduate Qualification,90-100%,55<=,0,60,N,Distinction
+AAA,2013J,312782,546614,-10,16,M,South Region,A Level or Equivalent,90-100%,0-35,0,60,N,Pass
+AAA,2013J,312782,546652,-9,3,M,South Region,A Level or Equivalent,90-100%,0-35,0,60,N,Pass
+AAA,2013J,312782,547013,-8,1,M,South Region,A Level or Equivalent,90-100%,0-35,0,60,N,Pass
+AAA,2013J,312782,546879,-7,2,M,South Region,A Level or Equivalent,90-100%,0-35,0,60,N,Pass
+AAA,2013J,312782,546652,-6,5,M,South Region,A Level or Equivalent,90-100%,0-35,0,60,N,Pass
+AAA,2013J,312782,547009,-5,1,M,South Region,A Level or Equivalent,90-100%,0-35,0,60,N,Pass
+AAA,2013J,312782,546667,-4,1,M,South Region,A Level or Equivalent,90-100%,0-35,0,60,N,Pass
+AAA,2013J,155854,547013,-10,1,F,East Midlands Region,A Level or Equivalent,20-30%,35-55,0,60,N,Pass
+AAA,2013J,155550,547013,-10,1,M,London Region,A Level or Equivalent,0-10%,35-55,0,420,N,Pass
+AAA,2013J,155550,546714,-9,1,M,London Region,A Level or Equivalent,0-10%,35-55,0,420,N,Pass
+AAA,2013J,155854,546986,-10,4,F,East Midlands Region,A Level or Equivalent,20-30%,35-55,0,60,N,Pass
+AAA,2013J,155550,546667,-10,1,M,London Region,A Level or Equivalent,0-10%,35-55,0,420,N,Pass
+AAA,2013J,155854,547009,-10,4,F,East Midlands Region,A Level or Equivalent,20-30%,35-55,0,60,N,Pass
+AAA,2013J,155854,546681,-9,4,F,East Midlands Region,A Level or Equivalent,20-30%,35-55,0,60,N,Pass
+AAA,2013J,155854,546688,-8,3,F,East Midlands Region,A Level or Equivalent,20-30%,35-55,0,60,N,Pass
+AAA,2013J,155854,546652,-7,4,F,East Midlands Region,A Level or Equivalent,20-30%,35-55,0,60,N,Pass
+AAA,2013J,155550,546879,-10,5,M,London Region,A Level or Equivalent,0-10%,35-55,0,420,N,Pass
+AAA,2013J,155854,546714,-10,1,F,East Midlands Region,A Level or Equivalent,20-30%,35-55,0,60,N,Pass
+AAA,2013J,155854,546719,-9,4,F,East Midlands Region,A Level or Equivalent,20-30%,35-55,0,60,N,Pass
+AAA,2013J,155854,546900,-8,1,F,East Midlands Region,A Level or Equivalent,20-30%,35-55,0,60,N,Pass
+AAA,2013J,155854,546871,-7,2,F,East Midlands Region,A Level or Equivalent,20-30%,35-55,0,60,N,Pass
+AAA,2013J,155854,546652,-6,4,F,East Midlands Region,A Level or Equivalent,20-30%,35-55,0,60,N,Pass
+AAA,2013J,155550,546719,-10,6,M,London Region,A Level or Equivalent,0-10%,35-55,0,420,N,Pass
+AAA,2013J,155550,546669,-9,1,M,London Region,A Level or Equivalent,0-10%,35-55,0,420,N,Pass
+AAA,2013J,155854,546667,-10,5,F,East Midlands Region,A Level or Equivalent,20-30%,35-55,0,60,N,Pass
+AAA,2013J,155854,546662,-9,37,F,East Midlands Region,A Level or Equivalent,20-30%,35-55,0,60,N,Pass
+AAA,2013J,155854,546879,-8,8,F,East Midlands Region,A Level or Equivalent,20-30%,35-55,0,60,N,Pass
+AAA,2013J,155550,546614,-10,2,M,London Region,A Level or Equivalent,0-10%,35-55,0,420,N,Pass
+AAA,2013J,155854,546614,-10,27,F,East Midlands Region,A Level or Equivalent,20-30%,35-55,0,60,N,Pass
+AAA,2013J,155984,546874,-10,1,F,East Anglian Region,Lower Than A Level,70-80%,0-35,0,60,N,Withdrawn
+AAA,2013J,155984,546874,-10,1,F,East Anglian Region,Lower Than A Level,70-80%,0-35,1,120,N,Pass
+AAA,2013J,155984,546883,-9,1,F,East Anglian Region,Lower Than A Level,70-80%,0-35,0,60,N,Withdrawn
+AAA,2013J,155984,546883,-9,1,F,East Anglian Region,Lower Than A Level,70-80%,0-35,1,120,N,Pass
+AAA,2013J,155984,546876,-8,3,F,East Anglian Region,Lower Than A Level,70-80%,0-35,0,60,N,Withdrawn
+AAA,2013J,155984,546876,-8,3,F,East Anglian Region,Lower Than A Level,70-80%,0-35,1,120,N,Pass
+AAA,2013J,155984,546688,-7,3,F,East Anglian Region,Lower Than A Level,70-80%,0-35,0,60,N,Withdrawn
+AAA,2013J,155984,546688,-7,3,F,East Anglian Region,Lower Than A Level,70-80%,0-35,1,120,N,Pass
+AAA,2013J,155984,546667,-6,3,F,East Anglian Region,Lower Than A Level,70-80%,0-35,0,60,N,Withdrawn
+AAA,2013J,155984,546667,-6,3,F,East Anglian Region,Lower Than A Level,70-80%,0-35,1,120,N,Pass
+AAA,2013J,155984,546879,-5,4,F,East Anglian Region,Lower Than A Level,70-80%,0-35,0,60,N,Withdrawn
+AAA,2013J,155984,546879,-5,4,F,East Anglian Region,Lower Than A Level,70-80%,0-35,1,120,N,Pass
+AAA,2013J,155984,546871,-4,1,F,East Anglian Region,Lower Than A Level,70-80%,0-35,0,60,N,Withdrawn
+AAA,2013J,155984,546871,-4,1,F,East Anglian Region,Lower Than A Level,70-80%,0-35,1,120,N,Pass
+AAA,2013J,155984,547013,-3,1,F,East Anglian Region,Lower Than A Level,70-80%,0-35,0,60,N,Withdrawn
+AAA,2013J,155984,547013,-3,1,F,East Anglian Region,Lower Than A Level,70-80%,0-35,1,120,N,Pass
+AAA,2013J,155984,546652,-2,4,F,East Anglian Region,Lower Than A Level,70-80%,0-35,0,60,N,Withdrawn
+AAA,2013J,155984,546652,-2,4,F,East Anglian Region,Lower Than A Level,70-80%,0-35,1,120,N,Pass
+AAA,2013J,155984,546652,-1,5,F,East Anglian Region,Lower Than A Level,70-80%,0-35,0,60,N,Withdrawn
+AAA,2013J,155984,546652,-1,5,F,East Anglian Region,Lower Than A Level,70-80%,0-35,1,120,N,Pass
+AAA,2013J,155984,546652,0,1,F,East Anglian Region,Lower Than A Level,70-80%,0-35,0,60,N,Withdrawn
+AAA,2013J,155984,546652,0,1,F,East Anglian Region,Lower Than A Level,70-80%,0-35,1,120,N,Pass
+AAA,2013J,155984,546614,1,17,F,East Anglian Region,Lower Than A Level,70-80%,0-35,0,60,N,Withdrawn
+AAA,2013J,155984,546614,1,17,F,East Anglian Region,Lower Than A Level,70-80%,0-35,1,120,N,Pass
+AAA,2013J,155984,546662,2,15,F,East Anglian Region,Lower Than A Level,70-80%,0-35,0,60,N,Withdrawn
+AAA,2013J,155984,546662,2,15,F,East Anglian Region,Lower Than A Level,70-80%,0-35,1,120,N,Pass
+AAA,2013J,159954,546719,-10,1,M,East Midlands Region,A Level or Equivalent,40-50%,35-55,0,60,N,Withdrawn
+AAA,2013J,159954,546719,-10,1,M,East Midlands Region,A Level or Equivalent,40-50%,35-55,1,60,N,Withdrawn
+AAA,2013J,159954,546614,-9,6,M,East Midlands Region,A Level or Equivalent,40-50%,35-55,0,60,N,Withdrawn
+AAA,2013J,159954,546614,-9,6,M,East Midlands Region,A Level or Equivalent,40-50%,35-55,1,60,N,Withdrawn
+AAA,2013J,159954,546652,-8,2,M,East Midlands Region,A Level or Equivalent,40-50%,35-55,0,60,N,Withdrawn
+AAA,2013J,159954,546652,-8,2,M,East Midlands Region,A Level or Equivalent,40-50%,35-55,1,60,N,Withdrawn
+AAA,2013J,159954,546879,-7,1,M,East Midlands Region,A Level or Equivalent,40-50%,35-55,0,60,N,Withdrawn
+AAA,2013J,159954,546879,-7,1,M,East Midlands Region,A Level or Equivalent,40-50%,35-55,1,60,N,Withdrawn
+AAA,2013J,159954,546667,-6,5,M,East Midlands Region,A Level or Equivalent,40-50%,35-55,0,60,N,Withdrawn
+AAA,2013J,159954,546667,-6,5,M,East Midlands Region,A Level or Equivalent,40-50%,35-55,1,60,N,Withdrawn
+AAA,2013J,159954,546652,-5,2,M,East Midlands Region,A Level or Equivalent,40-50%,35-55,0,60,N,Withdrawn
+AAA,2013J,159954,546652,-5,2,M,East Midlands Region,A Level or Equivalent,40-50%,35-55,1,60,N,Withdrawn
+AAA,2013J,159954,546662,-4,5,M,East Midlands Region,A Level or Equivalent,40-50%,35-55,0,60,N,Withdrawn
+AAA,2013J,159954,546662,-4,5,M,East Midlands Region,A Level or Equivalent,40-50%,35-55,1,60,N,Withdrawn
+AAA,2013J,164259,546662,-10,1,M,Scotland,A Level or Equivalent,70-80%,0-35,0,60,N,Pass
+AAA,2013J,164259,546652,-9,1,M,Scotland,A Level or Equivalent,70-80%,0-35,0,60,N,Pass
+AAA,2013J,164259,546614,-8,3,M,Scotland,A Level or Equivalent,70-80%,0-35,0,60,N,Pass
+AAA,2013J,164259,546652,-7,1,M,Scotland,A Level or Equivalent,70-80%,0-35,0,60,N,Pass
+AAA,2013J,167906,546688,-10,12,F,Yorkshire Region,A Level or Equivalent,40-50%,35-55,0,60,N,Pass
+AAA,2013J,167906,546662,-9,32,F,Yorkshire Region,A Level or Equivalent,40-50%,35-55,0,60,N,Pass
+AAA,2013J,167906,546876,-8,3,F,Yorkshire Region,A Level or Equivalent,40-50%,35-55,0,60,N,Pass
+AAA,2013J,167906,546986,-7,1,F,Yorkshire Region,A Level or Equivalent,40-50%,35-55,0,60,N,Pass
+AAA,2013J,167906,546700,-6,24,F,Yorkshire Region,A Level or Equivalent,40-50%,35-55,0,60,N,Pass
+AAA,2013J,167906,546883,-5,2,F,Yorkshire Region,A Level or Equivalent,40-50%,35-55,0,60,N,Pass
+AAA,2013J,167906,546719,-4,10,F,Yorkshire Region,A Level or Equivalent,40-50%,35-55,0,60,N,Pass
+AAA,2013J,167906,546990,-3,1,F,Yorkshire Region,A Level or Equivalent,40-50%,35-55,0,60,N,Pass
+AAA,2013J,167906,546681,-2,12,F,Yorkshire Region,A Level or Equivalent,40-50%,35-55,0,60,N,Pass
+AAA,2013J,167906,546667,-1,3,F,Yorkshire Region,A Level or Equivalent,40-50%,35-55,0,60,N,Pass
+AAA,2013J,167906,546871,0,1,F,Yorkshire Region,A Level or Equivalent,40-50%,35-55,0,60,N,Pass
+AAA,2013J,167906,546879,1,3,F,Yorkshire Region,A Level or Equivalent,40-50%,35-55,0,60,N,Pass
+AAA,2013J,167906,546614,2,13,F,Yorkshire Region,A Level or Equivalent,40-50%,35-55,0,60,N,Pass
+AAA,2013J,167906,547050,3,1,F,Yorkshire Region,A Level or Equivalent,40-50%,35-55,0,60,N,Pass
+AAA,2013J,180753,546662,-10,17,M,South West Region,A Level or Equivalent,30-40%,0-35,0,120,N,Pass
+AAA,2013J,180753,546614,-9,5,M,South West Region,A Level or Equivalent,30-40%,0-35,0,120,N,Pass
+AAA,2013J,180753,546652,-8,3,M,South West Region,A Level or Equivalent,30-40%,0-35,0,120,N,Pass
+AAA,2013J,180753,546652,-7,3,M,South West Region,A Level or Equivalent,30-40%,0-35,0,120,N,Pass
+AAA,2013J,180753,546652,-6,1,M,South West Region,A Level or Equivalent,30-40%,0-35,0,120,N,Pass
+AAA,2013J,181316,546879,-10,2,F,South West Region,A Level or Equivalent,80-90%,35-55,0,120,N,Withdrawn
+AAA,2013J,181316,546714,-9,5,F,South West Region,A Level or Equivalent,80-90%,35-55,0,120,N,Withdrawn
+AAA,2013J,181316,546614,-8,5,F,South West Region,A Level or Equivalent,80-90%,35-55,0,120,N,Withdrawn
+AAA,2013J,181316,546719,-7,3,F,South West Region,A Level or Equivalent,80-90%,35-55,0,120,N,Withdrawn
+AAA,2013J,181316,546681,-6,8,F,South West Region,A Level or Equivalent,80-90%,35-55,0,120,N,Withdrawn
+AAA,2013J,181316,546670,-5,1,F,South West Region,A Level or Equivalent,80-90%,35-55,0,120,N,Withdrawn
+AAA,2013J,181316,546668,-4,1,F,South West Region,A Level or Equivalent,80-90%,35-55,0,120,N,Withdrawn
+AAA,2013J,181316,546667,-3,4,F,South West Region,A Level or Equivalent,80-90%,35-55,0,120,N,Withdrawn
+AAA,2013J,181316,546662,-2,4,F,South West Region,A Level or Equivalent,80-90%,35-55,0,120,N,Withdrawn
+AAA,2013J,181316,546876,-1,2,F,South West Region,A Level or Equivalent,80-90%,35-55,0,120,N,Withdrawn
+AAA,2013J,181316,547013,0,1,F,South West Region,A Level or Equivalent,80-90%,35-55,0,120,N,Withdrawn
+AAA,2013J,181316,546871,1,1,F,South West Region,A Level or Equivalent,80-90%,35-55,0,120,N,Withdrawn
+AAA,2013J,181316,546890,2,1,F,South West Region,A Level or Equivalent,80-90%,35-55,0,120,N,Withdrawn
+AAA,2013J,184271,546681,-10,1,M,South West Region,HE Qualification,80-90%,35-55,0,170,N,Pass
+AAA,2013J,184271,546652,-9,1,M,South West Region,HE Qualification,80-90%,35-55,0,170,N,Pass
+AAA,2013J,184271,546614,-8,5,M,South West Region,HE Qualification,80-90%,35-55,0,170,N,Pass
+AAA,2013J,184271,546652,-7,2,M,South West Region,HE Qualification,80-90%,35-55,0,170,N,Pass
+AAA,2013J,186149,547030,-10,1,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,186149,546921,-9,1,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,186149,546920,-8,1,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,186149,546917,-7,1,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,186149,546916,-6,1,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,186149,546913,-5,1,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,186149,546911,-4,1,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,186149,546907,-3,1,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,185439,546662,-10,25,M,London Region,HE Qualification,10-20,0-35,0,120,N,Fail
+AAA,2013J,186149,546900,-10,1,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,186149,546879,-9,2,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,186149,546652,-8,4,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,185439,546871,-10,1,M,London Region,HE Qualification,10-20,0-35,0,120,N,Fail
+AAA,2013J,185439,546879,-9,1,M,London Region,HE Qualification,10-20,0-35,0,120,N,Fail
+AAA,2013J,186149,546871,-10,6,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,186149,546874,-9,2,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,186149,546943,-8,1,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,186149,546948,-7,1,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,186149,546952,-6,1,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,186149,547035,-5,1,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,186149,547020,-4,1,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,186149,547050,-3,1,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,186149,547013,-2,1,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,186149,547011,-1,1,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,186149,547009,0,1,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,186149,546990,1,1,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,186149,546986,2,2,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,186149,546984,3,1,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,186149,546982,4,1,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,186149,546975,5,1,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,186149,546971,6,1,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,186149,546970,7,1,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,186149,546961,8,1,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,186149,546954,9,1,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,185439,547011,-10,1,M,London Region,HE Qualification,10-20,0-35,0,120,N,Fail
+AAA,2013J,186149,546714,-10,1,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,186149,546688,-9,1,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,186149,546672,-8,1,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,186149,546671,-7,1,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,186149,546670,-6,1,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,186149,546668,-5,1,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,186149,546667,-4,3,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,186149,546662,-3,20,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,186149,546660,-2,1,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,185439,546911,-10,4,M,London Region,HE Qualification,10-20,0-35,0,120,N,Fail
+AAA,2013J,186149,546614,-10,16,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,185439,546614,-10,4,M,London Region,HE Qualification,10-20,0-35,0,120,N,Fail
+AAA,2013J,186149,546652,-10,5,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,186149,546681,-9,1,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,186149,546876,-8,1,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,186149,546669,-7,1,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,186149,546701,-6,4,M,Scotland,HE Qualification,30-40%,35-55,0,60,N,Pass
+AAA,2013J,183096,546662,-10,33,F,South West Region,A Level or Equivalent,60-70%,0-35,0,60,N,Pass
+AAA,2013J,183096,546614,-9,4,F,South West Region,A Level or Equivalent,60-70%,0-35,0,60,N,Pass
+AAA,2013J,183096,546986,-8,1,F,South West Region,A Level or Equivalent,60-70%,0-35,0,60,N,Pass
+AAA,2013J,187100,546883,-10,1,M,South East Region,A Level or Equivalent,50-60%,35-55,0,60,N,Distinction
+AAA,2013J,187100,546614,-9,39,M,South East Region,A Level or Equivalent,50-60%,35-55,0,60,N,Distinction
+AAA,2013J,187100,546652,-8,13,M,South East Region,A Level or Equivalent,50-60%,35-55,0,60,N,Distinction
+AAA,2013J,187100,546667,-7,7,M,South East Region,A Level or Equivalent,50-60%,35-55,0,60,N,Distinction
+AAA,2013J,187100,546873,-6,2,M,South East Region,A Level or Equivalent,50-60%,35-55,0,60,N,Distinction
+AAA,2013J,187100,546652,-5,24,M,South East Region,A Level or Equivalent,50-60%,35-55,0,60,N,Distinction
+AAA,2013J,187100,546900,-4,2,M,South East Region,A Level or Equivalent,50-60%,35-55,0,60,N,Distinction
+AAA,2013J,187100,546876,-3,2,M,South East Region,A Level or Equivalent,50-60%,35-55,0,60,N,Distinction
+AAA,2013J,187100,546688,-2,10,M,South East Region,A Level or Equivalent,50-60%,35-55,0,60,N,Distinction
+AAA,2013J,187100,546879,-1,12,M,South East Region,A Level or Equivalent,50-60%,35-55,0,60,N,Distinction
+AAA,2013J,187100,546871,0,7,M,South East Region,A Level or Equivalent,50-60%,35-55,0,60,N,Distinction
+AAA,2013J,187100,547013,1,1,M,South East Region,A Level or Equivalent,50-60%,35-55,0,60,N,Distinction
+AAA,2013J,187100,546662,2,48,M,South East Region,A Level or Equivalent,50-60%,35-55,0,60,N,Distinction
+AAA,2013J,187100,546681,3,11,M,South East Region,A Level or Equivalent,50-60%,35-55,0,60,N,Distinction
+AAA,2013J,187100,546719,4,5,M,South East Region,A Level or Equivalent,50-60%,35-55,0,60,N,Distinction
+AAA,2013J,188278,546670,-10,2,M,Yorkshire Region,A Level or Equivalent,70-80%,35-55,0,120,N,Withdrawn
+AAA,2013J,188278,546670,-10,2,M,Yorkshire Region,A Level or Equivalent,70-80%,35-55,1,60,N,Pass
+AAA,2013J,188278,546714,-9,8,M,Yorkshire Region,A Level or Equivalent,70-80%,35-55,0,120,N,Withdrawn
+AAA,2013J,188278,546714,-9,8,M,Yorkshire Region,A Level or Equivalent,70-80%,35-55,1,60,N,Pass
+AAA,2013J,188278,546672,-8,2,M,Yorkshire Region,A Level or Equivalent,70-80%,35-55,0,120,N,Withdrawn
+AAA,2013J,188278,546672,-8,2,M,Yorkshire Region,A Level or Equivalent,70-80%,35-55,1,60,N,Pass
+AAA,2013J,188278,546671,-7,3,M,Yorkshire Region,A Level or Equivalent,70-80%,35-55,0,120,N,Withdrawn
+AAA,2013J,188278,546671,-7,3,M,Yorkshire Region,A Level or Equivalent,70-80%,35-55,1,60,N,Pass
+AAA,2013J,188278,546614,-6,7,M,Yorkshire Region,A Level or Equivalent,70-80%,35-55,0,120,N,Withdrawn
+AAA,2013J,188278,546614,-6,7,M,Yorkshire Region,A Level or Equivalent,70-80%,35-55,1,60,N,Pass
+AAA,2013J,188278,546667,-5,3,M,Yorkshire Region,A Level or Equivalent,70-80%,35-55,0,120,N,Withdrawn
+AAA,2013J,188278,546667,-5,3,M,Yorkshire Region,A Level or Equivalent,70-80%,35-55,1,60,N,Pass
+AAA,2013J,188278,546652,-4,1,M,Yorkshire Region,A Level or Equivalent,70-80%,35-55,0,120,N,Withdrawn
+AAA,2013J,188278,546652,-4,1,M,Yorkshire Region,A Level or Equivalent,70-80%,35-55,1,60,N,Pass
+AAA,2013J,188278,546668,-3,2,M,Yorkshire Region,A Level or Equivalent,70-80%,35-55,0,120,N,Withdrawn
+AAA,2013J,188278,546668,-3,2,M,Yorkshire Region,A Level or Equivalent,70-80%,35-55,1,60,N,Pass
+AAA,2013J,188278,546662,-2,10,M,Yorkshire Region,A Level or Equivalent,70-80%,35-55,0,120,N,Withdrawn
+AAA,2013J,188278,546662,-2,10,M,Yorkshire Region,A Level or Equivalent,70-80%,35-55,1,60,N,Pass
+AAA,2013J,188278,546879,-1,2,M,Yorkshire Region,A Level or Equivalent,70-80%,35-55,0,120,N,Withdrawn
+AAA,2013J,188278,546879,-1,2,M,Yorkshire Region,A Level or Equivalent,70-80%,35-55,1,60,N,Pass
+AAA,2013J,188278,546948,0,1,M,Yorkshire Region,A Level or Equivalent,70-80%,35-55,0,120,N,Withdrawn
+AAA,2013J,188278,546948,0,1,M,Yorkshire Region,A Level or Equivalent,70-80%,35-55,1,60,N,Pass
+AAA,2013J,188278,546652,1,2,M,Yorkshire Region,A Level or Equivalent,70-80%,35-55,0,120,N,Withdrawn
+AAA,2013J,188278,546652,1,2,M,Yorkshire Region,A Level or Equivalent,70-80%,35-55,1,60,N,Pass
+AAA,2013J,188278,546871,2,1,M,Yorkshire Region,A Level or Equivalent,70-80%,35-55,0,120,N,Withdrawn
+AAA,2013J,188278,546871,2,1,M,Yorkshire Region,A Level or Equivalent,70-80%,35-55,1,60,N,Pass
+AAA,2013J,192183,546871,-10,1,F,South West Region,Lower Than A Level,90-100%,0-35,0,60,N,Pass
+AAA,2013J,192183,546614,-9,5,F,South West Region,Lower Than A Level,90-100%,0-35,0,60,N,Pass
+AAA,2013J,192183,546719,-8,3,F,South West Region,Lower Than A Level,90-100%,0-35,0,60,N,Pass
+AAA,2013J,192183,546662,-7,3,F,South West Region,Lower Than A Level,90-100%,0-35,0,60,N,Pass
+AAA,2013J,192183,546652,-6,1,F,South West Region,Lower Than A Level,90-100%,0-35,0,60,N,Pass
+AAA,2013J,172797,546652,-10,5,F,Ireland,A Level or Equivalent,,35-55,0,60,N,Pass
+AAA,2013J,172112,546652,-10,3,M,Ireland,HE Qualification,,35-55,0,60,N,Pass
+AAA,2013J,172797,547013,-10,1,F,Ireland,A Level or Equivalent,,35-55,0,60,N,Pass
+AAA,2013J,172797,546667,-9,5,F,Ireland,A Level or Equivalent,,35-55,0,60,N,Pass
+AAA,2013J,172797,546871,-8,7,F,Ireland,A Level or Equivalent,,35-55,0,60,N,Pass
+AAA,2013J,172797,546873,-7,1,F,Ireland,A Level or Equivalent,,35-55,0,60,N,Pass
+AAA,2013J,172797,546876,-6,5,F,Ireland,A Level or Equivalent,,35-55,0,60,N,Pass
+AAA,2013J,172797,546900,-5,1,F,Ireland,A Level or Equivalent,,35-55,0,60,N,Pass
+AAA,2013J,172112,546652,-10,2,M,Ireland,HE Qualification,,35-55,0,60,N,Pass
+AAA,2013J,172112,546879,-9,1,M,Ireland,HE Qualification,,35-55,0,60,N,Pass
+AAA,2013J,172797,546662,-10,12,F,Ireland,A Level or Equivalent,,35-55,0,60,N,Pass
+AAA,2013J,172112,546667,-10,3,M,Ireland,HE Qualification,,35-55,0,60,N,Pass
+AAA,2013J,172797,546652,-10,3,F,Ireland,A Level or Equivalent,,35-55,0,60,N,Pass
+AAA,2013J,172112,546662,-10,5,M,Ireland,HE Qualification,,35-55,0,60,N,Pass
+AAA,2013J,172797,546879,-10,12,F,Ireland,A Level or Equivalent,,35-55,0,60,N,Pass
+AAA,2013J,172797,546688,-9,4,F,Ireland,A Level or Equivalent,,35-55,0,60,N,Pass
+AAA,2013J,172797,546990,-8,1,F,Ireland,A Level or Equivalent,,35-55,0,60,N,Pass
+AAA,2013J,172112,546652,-10,1,M,Ireland,HE Qualification,,35-55,0,60,N,Pass
+AAA,2013J,172797,546948,-10,2,F,Ireland,A Level or Equivalent,,35-55,0,60,N,Pass
+AAA,2013J,172797,546732,-9,6,F,Ireland,A Level or Equivalent,,35-55,0,60,N,Pass
+AAA,2013J,172797,546731,-8,1,F,Ireland,A Level or Equivalent,,35-55,0,60,N,Pass
+AAA,2013J,172112,546614,-10,5,M,Ireland,HE Qualification,,35-55,0,60,N,Pass
+AAA,2013J,172797,546901,-10,1,F,Ireland,A Level or Equivalent,,35-55,0,60,N,Pass
+AAA,2013J,172797,546614,-9,17,F,Ireland,A Level or Equivalent,,35-55,0,60,N,Pass
+AAA,2013J,172797,546883,-8,1,F,Ireland,A Level or Equivalent,,35-55,0,60,N,Pass
+AAA,2013J,172797,546986,-7,1,F,Ireland,A Level or Equivalent,,35-55,0,60,N,Pass
+AAA,2013J,172797,546681,-6,1,F,Ireland,A Level or Equivalent,,35-55,0,60,N,Pass
+AAA,2013J,172797,546719,-5,2,F,Ireland,A Level or Equivalent,,35-55,0,60,N,Pass
+AAA,2013J,175392,546714,-10,3,M,North Region,HE Qualification,,35-55,0,60,N,Pass
+AAA,2013J,174782,546986,-10,1,M,East Anglian Region,HE Qualification,90-100%,55<=,0,60,N,Pass
+AAA,2013J,174782,546662,-9,37,M,East Anglian Region,HE Qualification,90-100%,55<=,0,60,N,Pass
+AAA,2013J,174782,546876,-8,3,M,East Anglian Region,HE Qualification,90-100%,55<=,0,60,N,Pass
+AAA,2013J,174782,546667,-7,4,M,East Anglian Region,HE Qualification,90-100%,55<=,0,60,N,Pass
+AAA,2013J,175392,546681,-10,2,M,North Region,HE Qualification,,35-55,0,60,N,Pass
+AAA,2013J,174782,547009,-10,1,M,East Anglian Region,HE Qualification,90-100%,55<=,0,60,N,Pass
+AAA,2013J,174782,546672,-9,1,M,East Anglian Region,HE Qualification,90-100%,55<=,0,60,N,Pass
+AAA,2013J,175392,546662,-10,6,M,North Region,HE Qualification,,35-55,0,60,N,Pass
+AAA,2013J,174782,546671,-10,1,M,East Anglian Region,HE Qualification,90-100%,55<=,0,60,N,Pass
+AAA,2013J,175392,546614,-10,21,M,North Region,HE Qualification,,35-55,0,60,N,Pass
+AAA,2013J,175392,546652,-9,11,M,North Region,HE Qualification,,35-55,0,60,N,Pass
+AAA,2013J,174782,546670,-10,1,M,East Anglian Region,HE Qualification,90-100%,55<=,0,60,N,Pass
+AAA,2013J,174782,546652,-9,4,M,East Anglian Region,HE Qualification,90-100%,55<=,0,60,N,Pass
+AAA,2013J,174782,546873,-8,1,M,East Anglian Region,HE Qualification,90-100%,55<=,0,60,N,Pass
+AAA,2013J,175392,546719,-10,3,M,North Region,HE Qualification,,35-55,0,60,N,Pass
+AAA,2013J,175392,546688,-9,1,M,North Region,HE Qualification,,35-55,0,60,N,Pass
+AAA,2013J,174782,546614,-10,20,M,East Anglian Region,HE Qualification,90-100%,55<=,0,60,N,Pass
+AAA,2013J,175392,546669,-10,1,M,North Region,HE Qualification,,35-55,0,60,N,Pass
+AAA,2013J,174782,546669,-10,8,M,East Anglian Region,HE Qualification,90-100%,55<=,0,60,N,Pass
+AAA,2013J,174782,546871,-9,1,M,East Anglian Region,HE Qualification,90-100%,55<=,0,60,N,Pass
+AAA,2013J,174782,546668,-8,1,M,East Anglian Region,HE Qualification,90-100%,55<=,0,60,N,Pass
+AAA,2013J,174782,546732,-7,7,M,East Anglian Region,HE Qualification,90-100%,55<=,0,60,N,Pass
+AAA,2013J,174782,546652,-6,5,M,East Anglian Region,HE Qualification,90-100%,55<=,0,60,N,Pass
+AAA,2013J,174782,546879,-5,8,M,East Anglian Region,HE Qualification,90-100%,55<=,0,60,N,Pass
+AAA,2013J,175932,546688,-10,1,M,North Western Region,HE Qualification,70-80%,35-55,0,60,N,Pass
+AAA,2013J,175932,546871,-9,4,M,North Western Region,HE Qualification,70-80%,35-55,0,60,N,Pass
+AAA,2013J,175392,546732,-10,2,M,North Region,HE Qualification,,35-55,0,60,N,Pass
+AAA,2013J,175932,546731,-10,11,M,North Western Region,HE Qualification,70-80%,35-55,0,60,N,Pass
+AAA,2013J,175932,546614,-9,16,M,North Western Region,HE Qualification,70-80%,35-55,0,60,N,Pass
+AAA,2013J,175932,546652,-8,2,M,North Western Region,HE Qualification,70-80%,35-55,0,60,N,Pass
+AAA,2013J,175392,547050,-10,1,M,North Region,HE Qualification,,35-55,0,60,N,Pass
+AAA,2013J,175932,546670,-10,3,M,North Western Region,HE Qualification,70-80%,35-55,0,60,N,Pass
+AAA,2013J,175392,546874,-10,1,M,North Region,HE Qualification,,35-55,0,60,N,Pass
+AAA,2013J,175392,547013,-9,1,M,North Region,HE Qualification,,35-55,0,60,N,Pass
+AAA,2013J,175932,546879,-10,17,M,North Western Region,HE Qualification,70-80%,35-55,0,60,N,Pass
+AAA,2013J,175932,546671,-9,2,M,North Western Region,HE Qualification,70-80%,35-55,0,60,N,Pass
+AAA,2013J,175932,546662,-8,8,M,North Western Region,HE Qualification,70-80%,35-55,0,60,N,Pass
+AAA,2013J,175932,546732,-7,27,M,North Western Region,HE Qualification,70-80%,35-55,0,60,N,Pass
+AAA,2013J,175392,546879,-10,5,M,North Region,HE Qualification,,35-55,0,60,N,Pass
+AAA,2013J,175932,546667,-10,27,M,North Western Region,HE Qualification,70-80%,35-55,0,60,N,Pass
+AAA,2013J,175392,546652,-10,7,M,North Region,HE Qualification,,35-55,0,60,N,Pass
+AAA,2013J,175932,546652,-10,4,M,North Western Region,HE Qualification,70-80%,35-55,0,60,N,Pass
+AAA,2013J,175392,546876,-10,1,M,North Region,HE Qualification,,35-55,0,60,N,Pass
+AAA,2013J,175392,546871,-9,9,M,North Region,HE Qualification,,35-55,0,60,N,Pass
+AAA,2013J,175392,546948,-8,2,M,North Region,HE Qualification,,35-55,0,60,N,Pass
+AAA,2013J,175392,546731,-7,6,M,North Region,HE Qualification,,35-55,0,60,N,Pass
+AAA,2013J,175932,546668,-10,2,M,North Western Region,HE Qualification,70-80%,35-55,0,60,N,Pass
+AAA,2013J,200860,546688,-10,4,M,London Region,Lower Than A Level,50-60%,35-55,0,60,N,Pass
+AAA,2013J,200860,546873,-9,1,M,London Region,Lower Than A Level,50-60%,35-55,0,60,N,Pass
+AAA,2013J,200860,546879,-8,1,M,London Region,Lower Than A Level,50-60%,35-55,0,60,N,Pass
+AAA,2013J,200860,546614,-7,3,M,London Region,Lower Than A Level,50-60%,35-55,0,60,N,Pass
+AAA,2013J,202635,546652,-10,3,F,Wales,A Level or Equivalent,30-40%,0-35,0,60,N,Withdrawn
+AAA,2013J,202635,546614,-9,9,F,Wales,A Level or Equivalent,30-40%,0-35,0,60,N,Withdrawn
+AAA,2013J,202635,546672,-8,1,F,Wales,A Level or Equivalent,30-40%,0-35,0,60,N,Withdrawn
+AAA,2013J,202635,546671,-7,1,F,Wales,A Level or Equivalent,30-40%,0-35,0,60,N,Withdrawn
+AAA,2013J,202635,546670,-6,1,F,Wales,A Level or Equivalent,30-40%,0-35,0,60,N,Withdrawn
+AAA,2013J,202635,546668,-5,1,F,Wales,A Level or Equivalent,30-40%,0-35,0,60,N,Withdrawn
+AAA,2013J,202635,546688,-4,13,F,Wales,A Level or Equivalent,30-40%,0-35,0,60,N,Withdrawn
+AAA,2013J,202635,546652,-3,2,F,Wales,A Level or Equivalent,30-40%,0-35,0,60,N,Withdrawn
+AAA,2013J,202635,546879,-2,7,F,Wales,A Level or Equivalent,30-40%,0-35,0,60,N,Withdrawn
+AAA,2013J,202635,546667,-1,5,F,Wales,A Level or Equivalent,30-40%,0-35,0,60,N,Withdrawn
+AAA,2013J,202635,546662,0,32,F,Wales,A Level or Equivalent,30-40%,0-35,0,60,N,Withdrawn
+AAA,2013J,205350,546614,-10,11,M,South West Region,HE Qualification,80-90%,35-55,0,60,N,Pass
+AAA,2013J,205350,546652,-9,2,M,South West Region,HE Qualification,80-90%,35-55,0,60,N,Pass
+AAA,2013J,205350,547020,-8,3,M,South West Region,HE Qualification,80-90%,35-55,0,60,N,Pass
+AAA,2013J,205350,546913,-7,2,M,South West Region,HE Qualification,80-90%,35-55,0,60,N,Pass
+AAA,2013J,205350,546970,-6,3,M,South West Region,HE Qualification,80-90%,35-55,0,60,N,Pass
+AAA,2013J,205350,546900,-5,4,M,South West Region,HE Qualification,80-90%,35-55,0,60,N,Pass
