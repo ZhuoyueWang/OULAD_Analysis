@@ -26,14 +26,14 @@ for i in transform_list:
     df_vle_info[i] = df_vle_info[i].astype('category')
 
 cat_columns = df_vle_info.select_dtypes(['category']).columns
-df_vle_info[cat_columns] = df_vle_info[cat_columns].apply(lambda x: x.cat.codes)
+df_vle_info[cat_columns] = df_vle_info[cat_columns].apply(lambda x: c)
 
 
 #df_vle_info.to_csv('processed_data/test.csv', index=False)
 
 features = []
 for f in df_vle_info:
-    if f not in ['code_presentation', 'id_student', 'date', 'final_result']:
+    if f not in ['code_presentation', 'final_result']:
         features.append(f)
 print(features)
 
