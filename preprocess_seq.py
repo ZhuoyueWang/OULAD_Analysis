@@ -20,7 +20,10 @@ df_vle_info = pd.read_csv('processed_data/vle_info.csv')
 
 print('Apply distribution transformations')
 
-transform_list = ["code_module", "code_presentation", "gender", "region",
+for f in ['studied_credits']:
+    df_vle_info[f] = np.log(1 + df_vle_info[f].values)
+
+transform_list = ["code_module", "id_site","code_presentation", "gender", "region",
     "highest_education", "imd_band", "age_band", "disability"]
 for i in transform_list:
     df_vle_info[i] = df_vle_info[i].astype('category')
@@ -33,7 +36,7 @@ df_vle_info[cat_columns] = df_vle_info[cat_columns].apply(lambda x: x.cat.codes)
 
 features = []
 for f in df_vle_info:
-    if f not in ['code_presentation', 'final_result']:
+    if f not in ['code_presentation',  'id_student','final_result']:
         features.append(f)
 print(features)
 
