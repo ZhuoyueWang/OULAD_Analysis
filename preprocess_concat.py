@@ -28,7 +28,7 @@ print("Start to load files for creating vle_info.csv")
 dfs = []
 
 df_student_info = pd.read_csv(student_info_file, sep=',', engine='python', header=0)
-df_student_vle = pd.read_csv(student_vle_file, sep=',', engine='python', header=0, nrows = 1000)
+df_student_vle = pd.read_csv(student_vle_file, sep=',', engine='python', header=0)
 
 print("Successfully loaded")
 
@@ -38,7 +38,7 @@ headerList = ["code_module", "code_presentation", "id_student", "id_site", "date
 
 countDate = 1
 prevRowName = ''
-for index, row in df_student_vle.iterrows():
+for index, row in tqdm(df_student_vle.iterrows()):
     dict_temp = dict()
     satisfied = df_student_info[df_student_info["id_student"] == row["id_student"]]
     for idx, i in enumerate(headerList):
@@ -80,13 +80,13 @@ print("Start to load files for creating student_assesment_assessments.csv")
 
 dfs = []
 
-df_student_assessment_file = pd.read_csv(student_assessment_file, sep=',', engine='python', header=0, nrows = 200)
+df_student_assessment_file = pd.read_csv(student_assessment_file, sep=',', engine='python', header=0)
 df_assessments_file = pd.read_csv(assessments_file, sep=',', engine='python', header=0)
 
 print("Successfully loaded")
 
 
-for index, row in df_student_assessment_file.iterrows():
+for index, row in tqdm(df_student_assessment_file.iterrows()):
     dict_temp = dict()
     satisfied = df_assessments_file[df_assessments_file[headerList[0]] == row[headerList[0]]]
     for idx, i in enumerate(headerList):
