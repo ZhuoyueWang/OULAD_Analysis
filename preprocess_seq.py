@@ -23,22 +23,29 @@ print('Apply distribution transformations')
 for f in ['studied_credits']:
     df_vle_info[f] = np.log(1 + df_vle_info[f].values)
 
-transform_list = ["code_module", "id_site","code_presentation", "gender", "region",
-    "highest_education", "imd_band", "age_band", "disability"]
+transform_list = ['code_module', 'id_site','code_presentation', 'gender', 'region',
+    'highest_education', 'imd_band', 'age_band', 'disability']
+
+'''
 for i in transform_list:
     df_vle_info[i] = df_vle_info[i].astype('category')
 
 cat_columns = df_vle_info.select_dtypes(['category']).columns
 df_vle_info[cat_columns] = df_vle_info[cat_columns].apply(lambda x: x.cat.codes)
+'''
 
+for i in transform_list:
+    df_dummy = pd.get_dummies(df_vle_info[i])
+    df_vle_info = pd.concat([df_vle_info, df_dummy], axis=1)
+df_vle_info = df_vle_info.drop(columns=transform_list)
 
-#df_vle_info.to_csv('processed_data/test.csv', index=False)
+df_vle_info.to_csv('processed_data/test.csv', index=False)
 
 features = []
 for f in df_vle_info:
     if f not in ['code_presentation',  'id_student','final_result']:
         features.append(f)
-print(features)
+
 
 print('Making sequences')
 X, y_i = nn_util.make_sequences(df_vle_info, features, 'id_student', sequence_len=SEQ_LEN, verbose=True)
@@ -49,8 +56,6 @@ np.save('processed_data/seq_X-' + str(SEQ_LEN) + '.npy', X)
 np.save('processed_data/seq_yi-' + str(SEQ_LEN) + '.npy', y_i)
 np.save('processed_data/seq_pids-' + str(SEQ_LEN) + '.npy', pids)
 
-
-exit(0)
 
 
 
@@ -71,5 +76,5 @@ print('Saving')
 np.save('processed_data/seq_X-sess.npy', np.array(X))  # Array of arrays since lengths are ragged.
 np.save('processed_data/seq_pids-sess.npy', np.array(pids))
 np.save('processed_data/seq_y-sess.npy', np.array(labels))
-print(labels)
-print(pids)
+#print(labels)
+#print(pids)

@@ -52,15 +52,20 @@ X = np.load('processed_data/seq_X-sess.npy')  # X is an array of 2D sequences, n
 y = np.load('processed_data/seq_y-sess.npy')
 pids = np.load('processed_data/seq_pids-sess.npy')
 print(str(len(y)) + ' sequences loaded')
-X = X[np.invert(np.isnan(y))]
-pids = pids[np.invert(np.isnan(y))]
-y = y[np.invert(np.isnan(y))]
+'''
+for i in y:
+    X = X[np.invert(np.isnan(i))]
+    pids = pids[np.invert(np.isnan(i))]
+    y = y[np.invert(np.isnan(i))]
 y = y / 6  # Rescale grade [0, 1].
+'''
 print(str(len(y)) + ' sequences after removing unlabeled sessions (session 1)')
 train_X, val_X, test_X = X[np.isin(pids, train_pids)], X[np.isin(pids, val_pids)], \
     X[np.isin(pids, test_pids)]
 train_y, val_y, test_y = y[np.isin(pids, train_pids)], y[np.isin(pids, val_pids)], \
     y[np.isin(pids, test_pids)]
+assert len(train_X) + len(val_X) + len(test_X) == len(X)
+print(len(train_y) + len(val_y) + len(test_y))
 assert len(train_y) + len(val_y) + len(test_y) == len(y)
 print('Train on %d, validate on %d, test on %d' % (len(train_y), len(val_y), len(test_y)))
 
