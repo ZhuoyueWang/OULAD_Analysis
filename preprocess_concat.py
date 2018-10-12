@@ -30,18 +30,15 @@ print("Start to load files for creating vle_info.csv")
 dfs = []
 
 df_student_info = pd.read_csv(student_info_file, sep=',', engine='python', header=0)
+df_student_vle = pd.read_csv(student_vle_file, sep=',', engine='python', header=0, chunksize=200000)
 
-for i in tqdm(range(0, 10655281, 20000)):
-    df_student_vle = pd.read_csv(student_vle_file, sep=',', engine='python', header=0, skiprows= range(1, i), nrows = 20000)
-    print(36)
-    print(df_student_vle['id_student'][0])
+for i in df_student_vle:
     headerList = ["code_module", "code_presentation", "id_student", "id_site", "date",
         "sum_click", "gender", "region", "highest_education", "imd_band",
         "age_band", "num_of_prev_attempts", "studied_credits", "disability", "final_result"]
-    print(40)
     countDate = 1
     prevRowName = ''
-    for index, row in tqdm(df_student_vle.iterrows()):
+    for index, row in tqdm(i.iterrows()):
         dict_temp = dict()
         satisfied = df_student_info[df_student_info["id_student"] == row["id_student"]]
         for idx, i in enumerate(headerList):
@@ -62,12 +59,11 @@ for i in tqdm(range(0, 10655281, 20000)):
                 else:
                     dict_temp[i] = satisfied[i] #no unique user
         dfs.append(pd.DataFrame(data=dict_temp))
-
     print('Concatenating files')
     df = pd.concat(dfs, ignore_index=True)
     print('Save vle_info.csv')
     df.to_csv('processed_data/vle_info.csv', mode='a', index=False)
-
+    exit(0)
 
 
 

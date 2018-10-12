@@ -16,65 +16,54 @@ import nn_util
 SEQ_LEN = 10
 
 print('Loading data')
-df_vle_info = pd.read_csv('processed_data/vle_info.csv')
+df_vle_info = pd.read_csv('processed_data/vle_info.csv', chunksize=20000)
+count = 0
+#print('Apply distribution transformations')
+for eachChunk in df_vle_info:
+    for f in ['studied_credits']:
+        eachChunk[f] = np.log(1 + eachChunk[f].values)
 
-print('Apply distribution transformations')
+    transform_list = ['code_module', 'id_site','code_presentation', 'gender', 'region',
+        'highest_education', 'imd_band', 'age_band', 'disability']
 
-for f in ['studied_credits']:
-    df_vle_info[f] = np.log(1 + df_vle_info[f].values)
+    for i in transform_list:
+        df_dummy = pd.get_dummies(eachChunk[i])
+        eachChunk = pd.concat([eachChunk, df_dummy], axis=1)
+    eachChunk = eachChunk.drop(columns=transform_list)
 
-transform_list = ['code_module', 'id_site','code_presentation', 'gender', 'region',
-    'highest_education', 'imd_band', 'age_band', 'disability']
+    features = []
+    for f in eachChunk:
+        if f not in ['code_presentation',  'id_student','final_result']:
+            features.append(f)
 
-'''
-for i in transform_list:
-    df_vle_info[i] = df_vle_info[i].astype('category')
+    print('Making sequences')
+    X, y_i = nn_util.make_sequences(eachChunk, features, 'id_student', sequence_len=SEQ_LEN, verbose=True)
+    pids = eachChunk.id_student[y_i].values
 
-cat_columns = df_vle_info.select_dtypes(['category']).columns
-df_vle_info[cat_columns] = df_vle_info[cat_columns].apply(lambda x: x.cat.codes)
-'''
+    #eachChunk.to_csv('processed_data/test.csv', index=False)
+    print('Saving')
+    np.save('processed_data/seq_X-' + str(SEQ_LEN) + '_' + str(count) + '.npy', X)
+    np.save('processed_data/seq_yi-' + str(SEQ_LEN) + '_' + str(count) + '.npy', y_i)
+    np.save('processed_data/seq_pids-' + str(SEQ_LEN) + '_' + str(count) + '.npy', pids)
 
-for i in transform_list:
-    df_dummy = pd.get_dummies(df_vle_info[i])
-    df_vle_info = pd.concat([df_vle_info, df_dummy], axis=1)
-df_vle_info = df_vle_info.drop(columns=transform_list)
+    print('Making session-length full sequences')
+    X = []
+    pids = []
+    labels = []
+    df_saa = pd.read_csv('processed_data/student_assesment_assessments.csv')
+    for pid in tqdm(sorted(eachChunk.id_student.unique())):
+        pid_df = eachChunk[eachChunk.id_student == pid]
+        for sess in sorted(pid_df.date.unique()):
+            sess_df = pid_df[pid_df.date == sess]
+            X.append(sess_df[features].values)
+            pids.append(pid)
+            labels.append(df_saa[df_saa.id_student == pid]['score'])
 
-df_vle_info.to_csv('processed_data/test.csv', index=False)
-
-features = []
-for f in df_vle_info:
-    if f not in ['code_presentation',  'id_student','final_result']:
-        features.append(f)
-
-
-print('Making sequences')
-X, y_i = nn_util.make_sequences(df_vle_info, features, 'id_student', sequence_len=SEQ_LEN, verbose=True)
-pids = df_vle_info.id_student[y_i].values
-
-print('Saving')
-np.save('processed_data/seq_X-' + str(SEQ_LEN) + '.npy', X)
-np.save('processed_data/seq_yi-' + str(SEQ_LEN) + '.npy', y_i)
-np.save('processed_data/seq_pids-' + str(SEQ_LEN) + '.npy', pids)
-
-
-
-
-print('Making session-length full sequences')
-X = []
-pids = []
-labels = []
-df_saa = pd.read_csv('processed_data/student_assesment_assessments.csv')
-for pid in tqdm(sorted(df_vle_info.id_student.unique())):
-    pid_df = df_vle_info[df_vle_info.id_student == pid]
-    for sess in sorted(pid_df.date.unique()):
-        sess_df = pid_df[pid_df.date == sess]
-        X.append(sess_df[features].values)
-        pids.append(pid)
-        labels.append(df_saa[df_saa.id_student == pid]['score'])
-
-print('Saving')
-np.save('processed_data/seq_X-sess.npy', np.array(X))  # Array of arrays since lengths are ragged.
-np.save('processed_data/seq_pids-sess.npy', np.array(pids))
-np.save('processed_data/seq_y-sess.npy', np.array(labels))
-#print(labels)
-#print(pids)
+    print('Saving')
+    np.save('processed_data/seq_X-sess' + '_' + str(count) + '.npy', np.array(X))  # Array of arrays since lengths are ragged.
+    np.save('processed_data/seq_pids-sess' + '_' + str(count) + '.npy', np.array(pids))
+    np.save('processed_data/seq_y-sess' + '_' + str(count) + '.npy', np.array(labels))
+    count += 1
+    exit(0)
+    #print(labels)
+    #print(pids)
