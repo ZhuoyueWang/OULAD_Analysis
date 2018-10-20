@@ -32,38 +32,36 @@ dfs = []
 df_student_info = pd.read_csv(student_info_file, sep=',', engine='python', header=0)
 df_student_vle = pd.read_csv(student_vle_file, sep=',', engine='python', header=0, chunksize=200000)
 
-for i in df_student_vle:
+for j in df_student_vle:
     headerList = ["code_module", "code_presentation", "id_student", "id_site", "date",
         "sum_click", "gender", "region", "highest_education", "imd_band",
         "age_band", "num_of_prev_attempts", "studied_credits", "disability", "final_result"]
-    countDate = 1
-    prevRowName = ''
-    for index, row in tqdm(i.iterrows()):
-        dict_temp = dict()
-        satisfied = df_student_info[df_student_info["id_student"] == row["id_student"]]
-        for idx, i in enumerate(headerList):
-            if idx <= 5:
-                if i == "date":
-                    if row["id_student"] != prevRowName:
-                        dict_temp[i] = row[i]
-                        prevRowName = row["id_student"]
-                        countDate = row[i]
-                    else:
-                        dict_temp[i] = countDate + 1
-                        countDate += 1
+    j = j.groupby(['id_student'])
+    for index, rows in tqdm(j):
+        rr = rows.groupby(['date'])
+        for a, rrRows in rr:
+            sum = 0
+            getFlag = True
+            dict_temp = dict()
+            dict_temp["sum_click"] = 0
+            for k, row in rrRows.iterrows():
+                if getFlag == True:
+                    satisfied = df_student_info[df_student_info["id_student"] == row["id_student"]]
+                    for idx, i in enumerate(headerList):
+                        if idx < 5:
+                            dict_temp[i] = row[i]
+                        elif idx == 5:
+                            dict_temp[i] += int(row[i])
+                        else:
+                            dict_temp[i] = satisfied[i] #no unique user
+                    getFlag = False
                 else:
-                    dict_temp[i] = row[i]
-            else:
-                if satisfied.shape[0] == 1:
-                    dict_temp[i] = satisfied[i]
-                else:
-                    dict_temp[i] = satisfied[i] #no unique user
-        dfs.append(pd.DataFrame(data=dict_temp))
+                    dict_temp["sum_click"] += int(row["sum_click"])
+            dfs.append(pd.DataFrame(data=dict_temp))
     print('Concatenating files')
     df = pd.concat(dfs, ignore_index=True)
     print('Save vle_info.csv')
     df.to_csv('processed_data/vle_info.csv', mode='a', index=False)
-    exit(0)
 
 
 

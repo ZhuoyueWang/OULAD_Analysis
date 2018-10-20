@@ -9,6 +9,7 @@ nn_util.limit_keras_gpu_mem(.1)
 np.random.seed(11798)  # So that data splitting is the same each run.
 
 
+
 print('Loading unsupervised data')
 X = np.load('processed_data/seq_X-10.npy')
 pids = np.load('processed_data/seq_pids-10.npy')

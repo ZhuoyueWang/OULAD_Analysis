@@ -16,7 +16,7 @@ import nn_util
 SEQ_LEN = 10
 
 print('Loading data')
-df_vle_info = pd.read_csv('processed_data/vle_info.csv', chunksize=20000)
+df_vle_info = pd.read_csv('processed_data/vle_info.csv', chunksize=200000)
 count = 0
 #print('Apply distribution transformations')
 for eachChunk in df_vle_info:
@@ -64,6 +64,5 @@ for eachChunk in df_vle_info:
     np.save('processed_data/seq_pids-sess' + '_' + str(count) + '.npy', np.array(pids))
     np.save('processed_data/seq_y-sess' + '_' + str(count) + '.npy', np.array(labels))
     count += 1
-    exit(0)
     #print(labels)
     #print(pids)
