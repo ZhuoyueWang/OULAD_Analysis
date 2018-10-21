@@ -30,8 +30,9 @@ print("Start to load files for creating vle_info.csv")
 dfs = []
 
 df_student_info = pd.read_csv(student_info_file, sep=',', engine='python', header=0)
-df_student_vle = pd.read_csv(student_vle_file, sep=',', engine='python', header=0, chunksize=200000)
+df_student_vle = pd.read_csv(student_vle_file, sep=',', engine='python', header=0, chunksize=1000000)
 
+count = 0
 for j in df_student_vle:
     headerList = ["code_module", "code_presentation", "id_student", "id_site", "date",
         "sum_click", "gender", "region", "highest_education", "imd_band",
@@ -60,8 +61,10 @@ for j in df_student_vle:
             dfs.append(pd.DataFrame(data=dict_temp))
     print('Concatenating files')
     df = pd.concat(dfs, ignore_index=True)
+    dfs = 0
     print('Save vle_info.csv')
-    df.to_csv('processed_data/vle_info.csv', mode='a', index=False)
+    df.to_csv('processed_data/vle_info_{}.csv'.format(count), mode='a', index=False)
+    count += 1
 
 
 
