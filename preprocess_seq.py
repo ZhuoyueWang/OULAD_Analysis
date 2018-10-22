@@ -20,6 +20,7 @@ df_vle_info = pd.read_csv('processed_data/vle_info.csv', chunksize=200000)
 count = 0
 #print('Apply distribution transformations')
 for eachChunk in df_vle_info:
+'''
     for f in ['studied_credits']:
         eachChunk[f] = np.log(1 + eachChunk[f].values)
 
@@ -30,7 +31,7 @@ for eachChunk in df_vle_info:
         df_dummy = pd.get_dummies(eachChunk[i])
         eachChunk = pd.concat([eachChunk, df_dummy], axis=1)
     eachChunk = eachChunk.drop(columns=transform_list)
-
+'''
     features = []
     for f in eachChunk:
         if f not in ['code_presentation',  'id_student','final_result']:

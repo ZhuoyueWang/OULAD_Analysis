@@ -18,6 +18,7 @@ import datetime
 import time
 import pandas as pd
 from tqdm import tqdm
+import numpy as np
 
 
 
@@ -41,26 +42,40 @@ for j in df_student_vle:
     for index, rows in tqdm(j):
         rr = rows.groupby(['date'])
         for a, rrRows in rr:
-            sum = 0
-            getFlag = True
-            dict_temp = dict()
-            dict_temp["sum_click"] = 0
-            for k, row in rrRows.iterrows():
-                if getFlag == True:
-                    satisfied = df_student_info[df_student_info["id_student"] == row["id_student"]]
-                    for idx, i in enumerate(headerList):
-                        if idx < 5:
-                            dict_temp[i] = row[i]
-                        elif idx == 5:
-                            dict_temp[i] += int(row[i])
-                        else:
-                            dict_temp[i] = satisfied[i] #no unique user
-                    getFlag = False
-                else:
-                    dict_temp["sum_click"] += int(row["sum_click"])
-            dfs.append(pd.DataFrame(data=dict_temp))
+            xx = rrRows.groupby(['id_site'])
+            for b, xxRows in xx:
+                sum = 0
+                getFlag = True
+                dict_temp = dict()
+                dict_temp["sum_click"] = 0
+                for k, row in xxRows.iterrows():
+                    if getFlag == True:
+                        satisfied = df_student_info[df_student_info["id_student"] == row["id_student"]]
+                        for idx, i in enumerate(headerList):
+                            if idx < 5:
+                                dict_temp[i] = row[i]
+                            elif idx == 5:
+                                dict_temp[i] += int(row[i])
+                            else:
+                                dict_temp[i] = satisfied[i] #no unique user
+                        getFlag = False
+                    else:
+                        dict_temp["sum_click"] += int(row["sum_click"])
+                dfs.append(pd.DataFrame(data=dict_temp))
     print('Concatenating files')
     df = pd.concat(dfs, ignore_index=True)
+    '''
+        for f in ['studied_credits']:
+            df[f] = np.log(1 + df[f].values)
+
+        transform_list = ['code_module', 'id_site','code_presentation', 'gender', 'region',
+            'highest_education', 'imd_band', 'age_band', 'disability']
+
+        for i in transform_list:
+            df_dummy = pd.get_dummies(df[i])
+            df = pd.concat([df, df_dummy], axis=1)
+        df = df.drop(columns=transform_list)
+    '''
     dfs = []
     print('Save vle_info_{}.csv'.format(count))
     df.to_csv('processed_data/vle_info_{}.csv'.format(count), mode='a', index=False)
