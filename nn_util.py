@@ -312,7 +312,7 @@ def make_sequences(pandas_df,
                    sequence_len=10,
                    min_valid_prop=.7,
                    missing_fill=0,
-                   overlap=1,
+                   overlap=10,   #10
                    verbose=False):
     """
     Create sequences of data of a specific length using a sliding window that moves by "overlap".
