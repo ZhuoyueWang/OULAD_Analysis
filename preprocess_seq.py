@@ -20,7 +20,7 @@ transform_list = ['code_module', 'id_site','code_presentation', 'gender', 'regio
 print('Loading data')
 df_vle_info = pd.read_csv('processed_data/vle_info.csv')
 count = 0
-#print('Apply distribution transformations')
+#print('Apply distribution transformations') 
 df_vle_info = df_vle_info.groupby(['code_module'])
 for index, eachChunk in tqdm(df_vle_info):
     ii = eachChunk.groupby(['id_student'])

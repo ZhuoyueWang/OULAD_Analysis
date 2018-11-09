@@ -37,7 +37,7 @@ df_vle = pd.read_csv(vle_file, sep=',', engine='python', header=0)
 count = 0
 print("Start to load files for creating vle_info_{}.csv".format(count))
 for j in df_student_vle:
-    headerList = ["code_module", "code_presentation", "id_student", "id_site", "date",
+    headerList = ["code_module", "code_presentation", "id_student",  "date",
         "sum_click", "gender", "region", "highest_education", "imd_band",
         "age_band", "num_of_prev_attempts", "studied_credits", "disability", "final_result"]
     j = j.groupby(['id_student'])
