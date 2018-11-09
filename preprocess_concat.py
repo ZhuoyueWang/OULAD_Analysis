@@ -22,6 +22,45 @@ import numpy as np
 
 
 
+headerList = ["id_assessment", "id_student", "date_submitted", "is_banked", "score",
+    "code_module", "code_presentation", "assessment_type", "date", "weight"]
+
+student_assessment_file = "../anonymisedData/studentAssessment.csv"
+assessments_file = "../anonymisedData/assessments.csv"
+
+print("Start to load files for creating student_assesment_assessments.csv")
+
+dfs = []
+
+df_student_assessment_file = pd.read_csv(student_assessment_file, sep=',', engine='python', header=0, nrows = 1000)
+df_assessments_file = pd.read_csv(assessments_file, sep=',', engine='python', header=0)
+
+print("Successfully loaded")
+
+
+for index, row in tqdm(df_student_assessment_file.iterrows()):
+    dict_temp = dict()
+    satisfied = df_assessments_file[df_assessments_file[headerList[0]] == row[headerList[0]]]
+    for idx, i in enumerate(headerList):
+        if idx <= 4:
+            dict_temp[i] = row[i]
+        else:
+            if satisfied.shape[0] == 1:
+                dict_temp[i] = satisfied[i]
+            else:
+                dict_temp[i] = satisfied[i] #no unique user
+    dfs.append(pd.DataFrame(data=dict_temp))
+
+print('Concatenating files')
+df = pd.concat(dfs, ignore_index=True)
+
+
+print('Save student_assesment_assessments.csv')
+df.to_csv('processed_data/student_assesment_assessments.csv', index=False)
+
+exit(0)
+
+
 
 student_info_file = "../anonymisedData/studentInfo.csv"
 student_vle_file = "../anonymisedData/studentVle.csv"
@@ -70,58 +109,19 @@ for j in df_student_vle:
                 dfs.append(pd.DataFrame(data=dict_temp))
     print('Concatenating files')
     df = pd.concat(dfs, ignore_index=True)
-    '''
-        for f in ['studied_credits']:
-            df[f] = np.log(1 + df[f].values)
+    for f in ['studied_credits']:
+        df[f] = np.log(1 + df[f].values)
 
-        transform_list = ['code_module', 'id_site','code_presentation', 'gender', 'region',
-            'highest_education', 'imd_band', 'age_band', 'disability']
-
-        for i in transform_list:
-            df_dummy = pd.get_dummies(df[i])
-            df = pd.concat([df, df_dummy], axis=1)
-        df = df.drop(columns=transform_list)
-    '''
+    transform_list = ['code_module', 'activity_type','code_presentation', 'gender', 'region',
+        'highest_education', 'imd_band', 'age_band', 'disability']
+    leave = ['activity_type','code_presentation', 'gender', 'region',
+        'highest_education', 'imd_band', 'age_band', 'disability']
+    for i in transform_list:
+        df_dummy = pd.get_dummies(df[i])
+        df = pd.concat([df, df_dummy], axis=1)
+    df = df.drop(columns=leave)
     dfs = []
     print('Save vle_info_{}.csv'.format(count))
     df.to_csv('processed_data/vle_info_{}.csv'.format(count), mode='a', index=False)
     exit(0)
     count += 1
-
-
-
-headerList = ["id_assessment", "id_student", "date_submitted", "is_banked", "score",
-    "code_module", "code_presentation", "assessment_type", "date", "weight"]
-
-student_assessment_file = "../anonymisedData/studentAssessment.csv"
-assessments_file = "../anonymisedData/assessments.csv"
-
-print("Start to load files for creating student_assesment_assessments.csv")
-
-dfs = []
-
-df_student_assessment_file = pd.read_csv(student_assessment_file, sep=',', engine='python', header=0, nrows = 1000)
-df_assessments_file = pd.read_csv(assessments_file, sep=',', engine='python', header=0)
-
-print("Successfully loaded")
-
-
-for index, row in tqdm(df_student_assessment_file.iterrows()):
-    dict_temp = dict()
-    satisfied = df_assessments_file[df_assessments_file[headerList[0]] == row[headerList[0]]]
-    for idx, i in enumerate(headerList):
-        if idx <= 4:
-            dict_temp[i] = row[i]
-        else:
-            if satisfied.shape[0] == 1:
-                dict_temp[i] = satisfied[i]
-            else:
-                dict_temp[i] = satisfied[i] #no unique user
-    dfs.append(pd.DataFrame(data=dict_temp))
-
-print('Concatenating files')
-df = pd.concat(dfs, ignore_index=True)
-
-
-print('Save student_assesment_assessments.csv')
-df.to_csv('processed_data/student_assesment_assessments.csv', index=False)
