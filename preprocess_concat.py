@@ -31,20 +31,24 @@ vle_file = "../anonymisedData/vle.csv"
 dfs = []
 
 df_student_info = pd.read_csv(student_info_file, sep=',', engine='python', header=0)
-df_student_vle = pd.read_csv(student_vle_file, sep=',', engine='python', header=0, chunksize=2000000)
+df_student_vle = pd.read_csv(student_vle_file, sep=',', engine='python', header=0, chunksize=2000)
 df_vle = pd.read_csv(vle_file, sep=',', engine='python', header=0)
 
 count = 0
 print("Start to load files for creating vle_info_{}.csv".format(count))
 for j in df_student_vle:
-    headerList = ["code_module", "code_presentation", "id_student",  "date",
+    headerList = ["code_module", "code_presentation", "activity_type","id_student","date",
         "sum_click", "gender", "region", "highest_education", "imd_band",
         "age_band", "num_of_prev_attempts", "studied_credits", "disability", "final_result"]
+    j["activity_type"] = ""
+    for index, row in j.iterrows():
+        sss = df_vle[df_vle["id_site"] == row["id_site"]]
+        j.at[index,"activity_type"] = str(sss["activity_type"]).split()[1]
     j = j.groupby(['id_student'])
     for index, rows in tqdm(j):
         rr = rows.groupby(['date'])
         for a, rrRows in rr:
-            xx = rrRows.groupby(['id_site'])
+            xx = rrRows.groupby(['activity_type'])
             for b, xxRows in xx:
                 sum = 0
                 getFlag = True
@@ -53,7 +57,6 @@ for j in df_student_vle:
                 for k, row in xxRows.iterrows():
                     if getFlag == True:
                         satisfied = df_student_info[df_student_info["id_student"] == row["id_student"]]
-                        sss = df_vle[df_vle["id_site"] == row["id_site"]]
                         for idx, i in enumerate(headerList):
                             if idx < 5:
                                 dict_temp[i] = row[i]
@@ -61,7 +64,6 @@ for j in df_student_vle:
                                 dict_temp[i] += int(row[i])
                             else:
                                 dict_temp[i] = satisfied[i] #no unique user
-                        dict_temp["activity_type"] = sss["activity_type"]
                         getFlag = False
                     else:
                         dict_temp["sum_click"] += int(row["sum_click"])
@@ -83,6 +85,7 @@ for j in df_student_vle:
     dfs = []
     print('Save vle_info_{}.csv'.format(count))
     df.to_csv('processed_data/vle_info_{}.csv'.format(count), mode='a', index=False)
+    exit(0)
     count += 1
 
 
