@@ -1,6 +1,8 @@
 import numpy as np
 import pandas as pd
 from keras import models, layers, optimizers
+import glob
+
 
 import nn_util
 
@@ -11,8 +13,10 @@ np.random.seed(11798)  # So that data splitting is the same each run.
 
 
 print('Loading unsupervised data')
-X = np.load('processed_data/seq_X-10.npy')
-pids = np.load('processed_data/seq_pids-10.npy')
+for np_name in glob.glob('*.np[yz]'):
+    numpy_vars[np_name] = np.load(np_name)
+X = np.load(glob.glob('processed_data/seq_X-unsup-*.npy'))
+pids = np.load('processed_data/seq_pids-unsup-.npy')
 # Select some participants to use for training, validation, and testing sets.
 unique_pids = np.unique(pids)
 train_pids = np.random.choice(unique_pids, int(len(unique_pids) * .8), replace=False)
@@ -49,9 +53,9 @@ model.fit(train_X[:, :-2], train_X[:, -1],
           epochs=5)
 
 print('Loading session-level supervised data')
-X = np.load('processed_data/seq_X-sess.npy')  # X is an array of 2D sequences, not a 3D tensor.
-y = np.load('processed_data/seq_y-sess.npy')
-pids = np.load('processed_data/seq_pids-sess.npy')
+X = np.load(glob.glob('processed_data/seq_X-sess.npy'))  # X is an array of 2D sequences, not a 3D tensor.
+y = np.load(glob.glob('processed_data/seq_y-sess.npy'))
+pids = np.load(glob.glob('processed_data/seq_pids-sess.npy'))
 print(str(len(y)) + ' sequences loaded')
 '''
 for i in y:

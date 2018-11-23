@@ -309,10 +309,10 @@ def rescale(train_pandas_df, test_pandas_df=None, columns=None, new_min=0, new_m
 def make_sequences(pandas_df,
                    in_columns,
                    participant_id_col=None,
-                   sequence_len=10,
+                   sequence_len=5,
                    min_valid_prop=.7,
                    missing_fill=0,
-                   overlap=10,   #10
+                   overlap=1,   #10
                    verbose=False):
     """
     Create sequences of data of a specific length using a sliding window that moves by "overlap".
