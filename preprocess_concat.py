@@ -58,8 +58,6 @@ df = pd.concat(dfs, ignore_index=True)
 print('Save student_assesment_assessments.csv')
 df.to_csv('processed_data/student_assesment_assessments.csv', index=False)
 
-exit(0)
-
 
 
 student_info_file = "../anonymisedData/studentInfo.csv"

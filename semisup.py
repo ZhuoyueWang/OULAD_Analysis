@@ -13,22 +13,42 @@ np.random.seed(11798)  # So that data splitting is the same each run.
 
 
 print('Loading unsupervised data')
-for np_name in glob.glob('*.np[yz]'):
-    numpy_vars[np_name] = np.load(np_name)
-X = np.load(glob.glob('processed_data/seq_X-unsup-*.npy'))
-pids = np.load('processed_data/seq_pids-unsup-.npy')
-# Select some participants to use for training, validation, and testing sets.
-unique_pids = np.unique(pids)
-train_pids = np.random.choice(unique_pids, int(len(unique_pids) * .8), replace=False)
-test_pids = unique_pids[np.isin(unique_pids, train_pids, invert=True)]
-# test_X = X[np.isin(pids, train_pids, invert=True)]  # Don't actually need testing data for AE.
-# Further split training data into train/validation sets.
-val_pids = np.random.choice(train_pids, int(len(train_pids) * .2), replace=False)
-train_pids = np.setdiff1d(train_pids, val_pids)
-val_X = X[np.isin(pids, val_pids)]
-train_X = X[np.isin(pids, train_pids)]
-assert len(train_pids) + len(val_pids) + len(test_pids) == len(unique_pids)
+folderList = ['AAA', 'BBB','CCC', 'DDD','EEE', 'FFF', 'GGG']
+XList = list()
+pidList = list()
+unique_pids = list()
+train_pids = list()
+test_pids = list()
+val_pids = list()
+train_pids = list()
+val_X = list()
+train_X = list()
+for i in folderList:
+    for np_name in glob.glob('processed_data/seq/' + i + 'seq_X-unsup-*.npy'):
+        XList.append(np.load(np_name))
+    for np_name in glob.glob('processed_data/seq/' + i + 'seq_pids-unsup-*.npy'):
+        pidList.append(np.load(np_name))
+    # Select some participants to use for training, validation, and testing sets.
+    X = np.concatenate(XList)
+    pid = np.concatenate(pidList)
+    unique_pids.append(np.unique(pid))
+    train_pids.append(np.random.choice(unique_pids, int(len(unique_pids) * .8), replace=False))
+    test_pids.append(unique_pids[np.isin(unique_pids, train_pids, invert=True)])
+    # test_X = X[np.isin(pids, train_pids, invert=True)]  # Don't actually need testing data for AE.
+    # Further split training data into train/validation sets.
+    val_pids.append(np.random.choice(train_pids, int(len(train_pids) * .2), replace=False))
+    train_pids.append(np.setdiff1d(train_pids, val_pids))
+    val_X.append(X[np.isin(pids, val_pids)])
+    train_X.append(X[np.isin(pids, train_pids)])
+    assert len(train_pids) + len(val_pids) + len(test_pids) == len(unique_pids)
 
+unique_pids = np.concatenate(unique_pids)
+train_pids = np.concatenate(train_pids)
+test_pids = np.concatenate(test_pids)
+val_pids = np.concatenate(val_pids)
+train_pids = np.concatenate(train_pids)
+val_X = np.concatenate(val_X)
+train_X = np.concatenate(train_X)
 
 ae_in = layers.Input([None, X[0].shape[-1]])
 m = layers.Conv1D(50, kernel_size=5, padding='valid')(ae_in)
@@ -53,6 +73,8 @@ model.fit(train_X[:, :-2], train_X[:, -1],
           epochs=5)
 
 print('Loading session-level supervised data')
+for i in folderList:
+
 X = np.load(glob.glob('processed_data/seq_X-sess.npy'))  # X is an array of 2D sequences, not a 3D tensor.
 y = np.load(glob.glob('processed_data/seq_y-sess.npy'))
 pids = np.load(glob.glob('processed_data/seq_pids-sess.npy'))
@@ -64,7 +86,6 @@ for i in y:
     y = y[np.invert(np.isnan(i))]
 y = y / 6  # Rescale grade [0, 1].
 '''
-print(str(len(y)) + ' sequences after removing unlabeled sessions (session 1)')
 train_X, val_X, test_X = X[np.isin(pids, train_pids)], X[np.isin(pids, val_pids)], \
     X[np.isin(pids, test_pids)]
 train_y, val_y, test_y = y[np.isin(pids, train_pids)], y[np.isin(pids, val_pids)], \

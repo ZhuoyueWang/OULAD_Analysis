@@ -34,18 +34,16 @@ for index, eachChunk in tqdm(df_vle_info):
         pids = eachChunk.id_student[y_i].values
         print(pids)
         print('Saving')
-        np.save('processed_data/seq/seq_X-unsup-' + str(SEQ_LEN) + '_' + str(iiRows['code_module']).split()[1] + '_' + str(iiRows['id_student']).split()[1]+'.npy', X)
-        np.save('processed_data/seq/seq_yi-unsup-' + str(SEQ_LEN) + '_' + str(iiRows['code_module']).split()[1] + '_' + str(iiRows['id_student']).split()[1]+'.npy', y_i)
-        np.save('processed_data/seq/seq_pids-unsup-' + str(SEQ_LEN) + '_' + str(iiRows['code_module']).split()[1] + '_' + str(iiRows['id_student']).split()[1]+'.npy', pids)
-
-        print('Making session-length full sequences')
         labels = []
         labels.append(df_saa[df_saa.id_student == pids[0]]['score'])
+        fileName = str(iiRows['code_module']).split()[1]
 
-        print('Saving')
-        np.save('processed_data/seq/seq_X-sup-' + '_' + str(iiRows['code_module']).split()[1] + '_' + str(iiRows['id_student']).split()[1]+ '.npy', np.array(X))  # Array of arrays since lengths are ragged.
-        np.save('processed_data/seq/seq_pids-sup-' + '_' + str(iiRows['code_module']).split()[1] + '_' + str(iiRows['id_student']).split()[1]+ '.npy', np.array(pids))
-        np.save('processed_data/seq/seq_y-sup-' + '_' + str(iiRows['code_module']).split()[1] + '_' + str(iiRows['id_student']).split()[1]+ '.npy', np.array(labels))
+        np.save('processed_data/seq/'+ fileName+ '/seq_X-unsup-' + str(SEQ_LEN) + '_' + str(iiRows['id_student']).split()[1]+'.npy', X)
+        np.save('processed_data/seq/'+ fileName+ '/seq_yi-unsup-' + str(SEQ_LEN) + str(iiRows['id_student']).split()[1]+'.npy', y_i)
+        np.save('processed_data/seq/'+ fileName+ '/seq_pids-unsup-' + str(SEQ_LEN) + str(iiRows['id_student']).split()[1]+'.npy', pids)
+        np.save('processed_data/seq/'+ fileName+ '/seq_X-sup-' + '_' + str(iiRows['id_student']).split()[1]+ '.npy', np.array(X))  # Array of arrays since lengths are ragged.
+        np.save('processed_data/seq/'+ fileName+ '/seq_pids-sup-' + '_' + str(iiRows['id_student']).split()[1]+ '.npy', np.array(pids))
+        np.save('processed_data/seq/'+ fileName+ '/seq_y-sup-' + '_' + str(iiRows['id_student']).split()[1]+ '.npy', np.array(labels))
         count += 1
         #print(labels)
         #print(pids)
