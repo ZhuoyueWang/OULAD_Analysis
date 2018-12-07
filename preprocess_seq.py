@@ -13,10 +13,14 @@ from tqdm import tqdm
 import nn_util
 
 
-SEQ_LEN = 5
+SEQ_LEN = 10
 
 print('Loading data')
-df_vle_info = pd.read_csv('processed_data/vle_info_0.csv')
+vle_info_list = list()
+for csv_name in glob.glob('processed_data/vle_info_*.csv'):
+    vle_info_list.append(pd.read_csv(csv_name, header=0))
+vle_info_list = pd.concat(list_, axis = 0, ignore_index = True)
+
 df_saa = pd.read_csv('processed_data/student_assesment_assessments.csv')
 count = 0
 #print('Apply distribution transformations')
@@ -41,6 +45,8 @@ for index, eachChunk in tqdm(df_vle_info):
         np.save('processed_data/seq/'+ fileName+ '/seq_X-unsup-' + str(SEQ_LEN) + '_' + str(iiRows['id_student']).split()[1]+'.npy', X)
         np.save('processed_data/seq/'+ fileName+ '/seq_yi-unsup-' + str(SEQ_LEN) + str(iiRows['id_student']).split()[1]+'.npy', y_i)
         np.save('processed_data/seq/'+ fileName+ '/seq_pids-unsup-' + str(SEQ_LEN) + str(iiRows['id_student']).split()[1]+'.npy', pids)
+
+
         np.save('processed_data/seq/'+ fileName+ '/seq_X-sup-' + '_' + str(iiRows['id_student']).split()[1]+ '.npy', np.array(X))  # Array of arrays since lengths are ragged.
         np.save('processed_data/seq/'+ fileName+ '/seq_pids-sup-' + '_' + str(iiRows['id_student']).split()[1]+ '.npy', np.array(pids))
         np.save('processed_data/seq/'+ fileName+ '/seq_y-sup-' + '_' + str(iiRows['id_student']).split()[1]+ '.npy', np.array(labels))
