@@ -110,9 +110,9 @@ for j in df_student_vle:
     for f in ['studied_credits']:
         df[f] = np.log(1 + df[f].values)
 
-    transform_list = ['code_module', 'activity_type','code_presentation', 'region',
+    transform_list = ['code_module', 'activity_type','code_presentation', "gender",'region',
         'highest_education', 'imd_band', 'age_band', 'disability']
-    leave = ['activity_type','code_presentation', 'region',
+    leave = ['activity_type','code_presentation', "gender",'region',
         'highest_education', 'imd_band', 'age_band', 'disability']
     for i in transform_list:
         df_dummy = pd.get_dummies(df[i])
@@ -121,5 +121,6 @@ for j in df_student_vle:
     dfs = []
     print('Save vle_info_{}.csv'.format(count))
     df.to_csv('processed_data/vle_info_{}.csv'.format(count), mode='a', index=False)
-    exit(0)
+    if count == 2:
+        exit(0)
     count += 1
